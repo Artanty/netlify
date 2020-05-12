@@ -3,8 +3,6 @@ backend:
   repo: Artanty/netlify
   branch: master
 media_folder: "images/uploads"
-media_library:
-   name: uploads
 collections:
   - name: "blog"
     label: "Blog"
