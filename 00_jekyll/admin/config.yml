@@ -2,11 +2,11 @@ backend:
   name: github
   repo: Artanty/netlify
   branch: master
-media_folder: "images/uploads"
+media_folder: "00_jekyll/images/uploads"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_posts/"
+    folder: "00_jekyll/_posts/"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
@@ -27,7 +27,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
     label: "Authors"
-    folder: "_authors/"
+    folder: "00_jekyll/_authors/"
     create: true
     editor:
       preview: false
