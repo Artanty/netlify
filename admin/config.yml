@@ -1,0 +1,12 @@
+backend:
+  name: github
+  repo: Artanty/netlify
+  branch: master
+
+media_folder: "images/uploads"
+
+
+
+media_library:
+   name: uploads
+
