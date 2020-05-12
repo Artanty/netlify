@@ -6,7 +6,7 @@ media_folder: "images/uploads"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "00_jekyll/_posts/"
+    folder: "_posts/"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
