@@ -2,12 +2,9 @@ backend:
   name: github
   repo: Artanty/netlify
   branch: master
-
 media_folder: "images/uploads"
-
 media_library:
    name: uploads
-
 collections:
   - name: "blog"
     label: "Blog"
@@ -79,4 +76,3 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Link, name: link, widget: string }
-
