@@ -8,8 +8,7 @@ collections:
     label: "Blog"
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
-    slug: "{{myslug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
-    permalink: "/{{myslug}}/index.php"
+    slug: "{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
