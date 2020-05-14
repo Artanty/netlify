@@ -2,7 +2,9 @@ backend:
   name: github
   repo: Artanty/netlify
   branch: master
-media_folder: "images/uploads"
+# media_folder: "images/uploads"
+  media_folder: static/media
+  public_folder: /media
 collections:
   - name: "blog"
     label: "Blog"
@@ -18,6 +20,7 @@ collections:
       - { label: "permalink", name: "permalink", widget: "string", default: "/index.php" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Cover Image", name: "image", widget: "image" }
       - {
           label: "Author",
           name: "author",
