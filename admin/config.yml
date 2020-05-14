@@ -17,7 +17,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     # slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/index'
+    path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
     # туц 
     media_folder: ''
     public_folder: ''
