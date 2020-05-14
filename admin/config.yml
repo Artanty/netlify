@@ -4,7 +4,7 @@ backend:
   branch: master
 # media_folder: "images/uploads"
   media_folder: "static/media"
-  public_folder: "/media"
+  # public_folder: "/media"
 collections:
   - name: "blog" #Used in routes, e.g. /admin/collections/blog
     label: "Blog"
