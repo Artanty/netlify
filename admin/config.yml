@@ -8,8 +8,8 @@ backend:
 #   name: uploadcare
 #   config:
 #     publicKey: demopublickey
-media_folder: static/media #куда положим фотки
-public_folder: /media
+# media_folder: static/media #куда положим фотки
+# public_folder: /media
 collections:
   - name: "blog" #Used in routes, e.g. /admin/collections/blog
     label: "Blog"
