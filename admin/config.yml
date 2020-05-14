@@ -8,7 +8,7 @@ backend:
 #   name: uploadcare
 #   config:
 #     publicKey: demopublickey
-# media_folder: static/media #куда положим фотки
+media_folder: static/media #куда положим фотки
 # public_folder: /media
 collections:
   - name: "blog" #Used in routes, e.g. /admin/collections/blog
@@ -19,7 +19,7 @@ collections:
     # slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
     path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
     # туц 
-    media_folder: '{{path}}'
+    # media_folder: '{{path}}'
     public_folder: '{{path}}'
     # туц утв
     editor:
