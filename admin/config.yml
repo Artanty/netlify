@@ -11,8 +11,8 @@ media_folder: "images/uploads"
 # media_folder: static/media #куда положим фотки
 # public_folder: /media
 collections:
-  - name: "blog" #Used in routes, e.g. /admin/collections/blog
-    label: "Blog"
+  - name: "post" #Used in routes, e.g. /admin/collections/blog
+    label: "Post"
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
     # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
