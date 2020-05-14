@@ -20,7 +20,7 @@ collections:
     path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
     # туц 
     # media_folder: '{{path}}'
-    public_folder: '{{path}}'
+    # public_folder: '{{path}}'
     # туц утв
     editor:
       preview: false
