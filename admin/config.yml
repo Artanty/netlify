@@ -3,13 +3,13 @@ backend:
   repo: Artanty/netlify
   branch: master
   # media_folder: "images/uploads"
-  # media_folder: "static/images/uploads"
+  media_folder: "static/images/uploads"
 # media_library:
 #   name: uploadcare
 #   config:
 #     publicKey: demopublickey
-media_folder: static/media #куда положим фотки
-public_folder: /media
+# media_folder: static/media #куда положим фотки
+# public_folder: /media
 collections:
   - name: "blog" #Used in routes, e.g. /admin/collections/blog
     label: "Blog"
