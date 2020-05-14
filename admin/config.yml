@@ -2,8 +2,8 @@ backend:
   name: github
   repo: Artanty/netlify
   branch: master
-  # media_folder: "images/uploads"
-  media_folder: "static/images/uploads"
+media_folder: "images/uploads"
+# media_folder: "static/images/uploads"
 # media_library:
 #   name: uploadcare
 #   config:
@@ -16,8 +16,8 @@ collections:
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
     # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    # slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
+    slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    # path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
     # туц 
     # media_folder: '{{path}}'
     # public_folder: '{{path}}'
@@ -28,11 +28,11 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       # - { label: "URL", name: "myslug", widget: "string" }
       # - { label: "permalink", name: "permalink", widget: "string", default: "/index.php" }
-      - { label: "foldermy", name: "foldermy", widget: "string" }
+      # - { label: "foldermy", name: "foldermy", widget: "string" }
       - { label: "permalink", name: "permalink", widget: "string", default: "/index.html" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      # - { label: "Cover Image", name: "thumbnail", widget: "image" }
+      - { label: "Cover Image", name: "thumbnail", widget: "image" }
       - {
           label: "Author",
           name: "author",
