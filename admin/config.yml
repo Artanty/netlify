@@ -16,7 +16,8 @@ collections:
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
     # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    # slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    path: '{{foldermy}}/index'
     # туц 
     media_folder: ''
     public_folder: ''
@@ -27,7 +28,8 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       # - { label: "URL", name: "myslug", widget: "string" }
       # - { label: "permalink", name: "permalink", widget: "string", default: "/index.php" }
-      - { label: "permalink", name: "permalink", widget: "string", default: "/index.html" }
+      - { label: "foldermy", name: "foldermy", widget: "string" }
+      # - { label: "permalink", name: "permalink", widget: "string", default: "/index.html" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Cover Image", name: "thumbnail", widget: "image" }
