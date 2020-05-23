@@ -12,7 +12,7 @@
 </head>
 <body>
 	
-<? include '../../header/nav.php';?>
+<!-- <? include '../../header/nav.php';?> -->
 
 	
 	
@@ -31,40 +31,25 @@
 			</div>
 		</div>
 	</section>
-	
-	<!-- <section>
-		<ul>
-		  {% for author in site.authors %}
-		    <li>
-		      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-		      <h3>{{ author.position }}</h3>
-		      <p>{{ author.content | markdownify }}</p>
-		    </li>
-		  {% endfor %}
-		</ul>
-	</section> -->
-	
 	<section>
 		<div class="container">
 			<div class="row cards__row">
 
 				{% for post in site.posts %}
 
-				  <div class="col-12 cards__col">
+				  <div class="cards__col">
 
 				  	<div class="card">
 				  		<a href="{{ post.url }}">
-				  			
 				  			<div class="card-img" style="background-image:url('{{ post.thumbnail }}');"></div>
-				  	  		<!-- <img class="card-img-top" src="{{ post.thumbnail }}" alt="Card image cap"> -->
 				  		</a>
 
 				  	  	<div class="card-body">
 				  	  	  <div class="card__top">
+				  	  	  	<span class="card__tags">{{ post.tags }}</span>
 				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
 				  	  	  	{{ post.content | slice: 0, 65 }}...
 				  	  	  </div>
-				  	  	  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 				  	  	  <div class="card__footer">
 
 				  	  	  	{% assign author = site.authors | where: 'name', post.author | first %}

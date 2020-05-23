@@ -43,6 +43,16 @@ h2{
 	justify-content: space-between;
 	padding: 30px 40px;
 }
+span.card__tags{
+	display: block;
+	    margin-bottom: 4px;
+	    color: #738a94;
+	    font-size: 12px;
+	    /*line-height: 1.15em;*/
+	    font-weight: 500;
+	    letter-spacing: .5px;
+	    text-transform: uppercase;
+}
 h2.card__title{
 	margin-bottom: 16px;
 	margin-left: 0px;
@@ -80,7 +90,9 @@ h2.card__title{
 	    letter-spacing: .5px;
 	    text-transform: uppercase;
 }
-
+/*.cards__row .cards__col:nth-child(1){
+	width: 100%;
+}
 .cards__row .cards__col:nth-child(1) .card{
 	flex-direction: row;
 }
@@ -90,3 +102,10 @@ h2.card__title{
 .cards__row .cards__col:nth-child(1) .card-body{
 	width: 32%;
 }
+
+.cards__row .cards__col:nth-child(2),
+.cards__row .cards__col:nth-child(3),
+.cards__row .cards__col:nth-child(4){
+	flex: 1 1 300px;
+	flex-direction: column;
+}*/
