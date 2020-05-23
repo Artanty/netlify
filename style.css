@@ -1,0 +1,70 @@
+.screen1{
+	padding:40px 0px;
+}
+h1{
+	font-size: 38px;
+	/*font-family: muller;*/
+	font-weight: 700;
+	letter-spacing: -.36px;
+	/*color: #1b1b1b;*/
+	/*color:#fff;*/
+	color:#3e3e3e;
+}
+
+
+body{
+	/*background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);*/
+	background: linear-gradient(to bottom, #c4e6ff 400px, #fafafa 200px, #fafafa);
+
+
+}
+.card{
+	height: 300px;
+
+	border-radius: 5px;
+	    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+	    transition: all .5s ease;
+}
+.card-img{
+	width: auto;
+	height: 300px;
+	background: #c5d2d9 no-repeat 50%;
+	background-size: cover;
+}
+h2{
+	margin: 1.5px;
+	    font-size: 1.4rem;
+	    line-height: 1.15;
+	    font-weight: 100;
+	    text-rendering: optimizeLegibility;
+}
+.card-body p{
+	font-size: 16px;
+	font-weight: 100;
+}
+.card-body .author img{
+	
+}
+.card-body .author span{
+
+}
+.card-body span.minutes{
+	color: #738a94;
+	text-transform: uppercase;
+	    font-size: 15px;
+
+}
+.card-footer{
+	background-color: transparent;
+	border-top: none;
+}
+
+.cards__row .cards__col:nth-child(1) .card{
+	flex-direction: row;
+}
+.cards__row .cards__col:nth-child(1) a{
+	width: 68%;
+}
+.cards__row .cards__col:nth-child(1) .card-body{
+	width: 32%;
+}

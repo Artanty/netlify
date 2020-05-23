@@ -40,7 +40,17 @@ collections:
           collection: "authors",
           displayFields: [display_name],
           searchFields: [display_name],
+          valueField: "name"
+        }
+      - {
+          label: "Tag",
+          name: "tag",
+          widget: "relation",
+          collection: "tags",
+          displayFields: [display_name],
+          searchFields: [display_name],
           valueField: "name",
+          multiple: true
         }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
@@ -51,10 +61,22 @@ collections:
       preview: false
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
-      # - { label: "Short Name", name: "name", widget: "string" }
+      - { label: "Short Name", name: "name", widget: "string" }
       - { label: "Diplay Name", name: "display_name", widget: "string" }
-      # - { label: "Position", name: "position", widget: "string" }
-      # - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Cover Image", name: "thumbnail", widget: "image" }
+  - name: "tags"
+    label: "Tags"
+    folder: "_tags/"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "tag" }
+      - { label: "Diplay Name", name: "display_name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Cover Image", name: "thumbnail", widget: "image" }
   - name: "pages"
     label: "Pages"
