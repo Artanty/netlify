@@ -71,7 +71,7 @@ h2.card__title{
 .card-body span.minutes{
 	color: #738a94;
 	text-transform: uppercase;
-	    font-size: 15px;
+	font-size: 15px;
 
 }
 .card__footer{
@@ -90,7 +90,7 @@ h2.card__title{
 	    letter-spacing: .5px;
 	    text-transform: uppercase;
 }
-/*.cards__row .cards__col:nth-child(1){
+.cards__row .cards__col:nth-child(1){
 	width: 100%;
 }
 .cards__row .cards__col:nth-child(1) .card{
@@ -107,5 +107,24 @@ h2.card__title{
 .cards__row .cards__col:nth-child(3),
 .cards__row .cards__col:nth-child(4){
 	flex: 1 1 300px;
+	
+}
+.cards__row .cards__col:nth-child(2) .card-body,
+.cards__row .cards__col:nth-child(3) .card-body,
+.cards__row .cards__col:nth-child(4) .card-body{
 	flex-direction: column;
-}*/
+	height: 240px;
+	min-height: 240px;
+}
+
+/*.cards__row .cards__col:nth-child(2) .card-body .card-img,
+.cards__row .cards__col:nth-child(3) .card-body .card-img,
+.cards__row .cards__col:nth-child(4) .card-body .card-img{
+	height: 200px;
+	}*/
+
+.cards__row .cards__col:nth-child(2) .card-img,
+.cards__row .cards__col:nth-child(3) .card-img,
+.cards__row .cards__col:nth-child(4) .card-img{
+	height: 200px;
+	}
