@@ -2,6 +2,6 @@
 layout: author
 name: you
 display_name: you
-position: "2"
+position: "Журналист"
 thumbnail: /images/uploads/myphoto.jpg
 ---

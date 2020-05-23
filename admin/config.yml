@@ -55,6 +55,7 @@ collections:
   - name: "authors"
     label: "Authors"
     folder: "_authors/"
+    # slug: "{{name}}"
     create: true
     editor:
       preview: false
@@ -75,7 +76,6 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "tag" }
       - { label: "Short Name", name: "name", widget: "string" }
       - { label: "Diplay Name", name: "display_name", widget: "string" }
-      - { label: "Position", name: "position", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Cover Image", name: "thumbnail", widget: "image" }
   - name: "pages"

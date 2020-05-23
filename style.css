@@ -20,7 +20,6 @@ body{
 }
 .card{
 	height: 300px;
-
 	border-radius: 5px;
 	    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
 	    transition: all .5s ease;
@@ -38,9 +37,20 @@ h2{
 	    font-weight: 100;
 	    text-rendering: optimizeLegibility;
 }
+.card-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 30px 40px;
+}
+h2.card__title{
+	margin-bottom: 16px;
+	margin-left: 0px;
+}
 .card-body p{
 	font-size: 16px;
 	font-weight: 100;
+	    font-family: georgia;
 }
 .card-body .author img{
 	
@@ -54,9 +64,21 @@ h2{
 	    font-size: 15px;
 
 }
-.card-footer{
-	background-color: transparent;
-	border-top: none;
+.card__footer{
+	/*background-color: transparent;
+	border-top: none;*/
+	display: flex;
+}
+.card__authorImg{
+	margin-right: 5px;
+	    width: 25px;
+	    height: 25px;
+	    border-radius: 100%;
+}
+.{
+	font-weight: 500;
+	    letter-spacing: .5px;
+	    text-transform: uppercase;
 }
 
 .cards__row .cards__col:nth-child(1) .card{

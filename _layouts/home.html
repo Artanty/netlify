@@ -32,24 +32,18 @@
 		</div>
 	</section>
 	
-	<style>
-	  	
-	</style>
-	
 	<!-- <section>
 		<ul>
-		    {% for author in site.authors %}
+		  {% for author in site.authors %}
 		    <li>
-		        {{ author[1].name }}
+		      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+		      <h3>{{ author.position }}</h3>
+		      <p>{{ author.content | markdownify }}</p>
 		    </li>
-		    {% endfor %}
+		  {% endfor %}
 		</ul>
 	</section> -->
-	<section>
-		{% for post in site.authors %}
-		{{post}}
-		{% endfor %}
-	</section>
+	
 	<section>
 		<div class="container">
 			<div class="row cards__row">
@@ -66,23 +60,24 @@
 				  		</a>
 
 				  	  	<div class="card-body">
-				  	  	  <h2 class="card-title">{{ post.title }}</h2>
-				  	  	  {{ post.content | slice: 0, 65 }}
+				  	  	  <div class="card__top">
+				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
+				  	  	  	{{ post.content | slice: 0, 65 }}...
+				  	  	  </div>
 				  	  	  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-				  	  	  <div class="card-footer">
+				  	  	  <div class="card__footer">
 
-				  	  	  	
+				  	  	  	{% assign author = site.authors | where: 'name', post.author | first %}
+				  	  	  	{% if author %}
+							<img class="card__authorImg" src="{{author.thumbnail}}" alt="">
+							<a href="{{ author.url }}">{{ author.name }}</a>	 
+				  	  	  	{% endif %}
+
 				  	  	  	{% assign words = post.content | number_of_words %}
-				  	  	  	<span class="minutes">{{ words | divided_by:180 }} мин.</span>
-
+				  	  	  	<span class="minutes">{{ words | divided_by:180 }} мин.</span>				  	  	  	
 				  	  	  </div>
 				  	  	</div>
 				  	</div>
-
-				  	
-
-
-
 				  </div>
 				  
 				{% endfor %}
