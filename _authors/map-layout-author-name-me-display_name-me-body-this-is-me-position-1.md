@@ -1,8 +1,11 @@
 ---
 layout: author
-name: me
+name: Артем Антошкин
 display_name: me
-position: "Копирайтер"
-thumbnail: /images/uploads/thor.jpg
+permalink: antoshkin
+position: Ведущий маркетолог
+thumbnail: /images/uploads/myphoto.jpg
 ---
-this is me
+Привет!\
+Меня зовут Артём.\
+Я люблю делать сайты.
