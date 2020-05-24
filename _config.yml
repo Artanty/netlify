@@ -29,6 +29,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
   authors:
     output: true
+  tags:
+    output: true
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -44,6 +46,12 @@ defaults:
     values:
       permalink: "/blog/authors/:name/"
       layout: author
+  - scope:
+      path: ''
+      type: tags
+    values:
+      permalink: "/blog/tags/:name/"
+      layout: tag
 # defaults:
 #   - scope:
 #       path: "assets/img"

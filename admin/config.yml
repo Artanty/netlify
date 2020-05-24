@@ -54,9 +54,11 @@ collections:
       preview: false
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
-      - { label: "Имя", name: "name", widget: "string" }
+      - { label: "Имя", name: "display_name", widget: "string" }
+      
       - { label: "URL", name: "permalink", widget: "string", default: "latin_url" }
-      # - { label: "Diplay Name", name: "display_name", widget: "string" }
+      - { label: "Short Name", name: "name", widget: "hidden", default: "{{permalink}}"}
+      
       - { label: "Должность", name: "position", widget: "string" }
       - { label: "Аватар", name: "thumbnail", widget: "image" }
       - { label: "Био", name: "body", widget: "markdown" }
@@ -68,8 +70,11 @@ collections:
       preview: false
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "tag" }
-      - { label: "Short Name", name: "name", widget: "string" }
-      - { label: "Diplay Name", name: "display_name", widget: "string" }
+      - { label: "Название", name: "display_name", widget: "string" }
+
+      - { label: "URL", name: "permalink", widget: "string", default: "latin_url" }
+      - { label: "Short Name", name: "name", widget: "hidden", default: "{{permalink}}"}
+
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Cover Image", name: "thumbnail", widget: "image" }
   - name: "pages"

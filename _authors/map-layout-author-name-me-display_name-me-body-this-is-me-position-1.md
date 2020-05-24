@@ -1,7 +1,7 @@
 ---
 layout: author
-name: Артем Антошкин
-display_name: me
+name: antoshkin
+display_name: Артем Антошкин
 permalink: antoshkin
 position: Ведущий маркетолог
 thumbnail: /images/uploads/myphoto.jpg
