@@ -3,28 +3,33 @@
 }
 h1{
 	font-size: 38px;
-	/*font-family: muller;*/
 	font-weight: 700;
 	letter-spacing: -.36px;
-	/*color: #1b1b1b;*/
-	/*color:#fff;*/
 	color:#3e3e3e;
 }
 
 
-body{
+body.page__posts{
 	/*background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);*/
-	background: linear-gradient(to bottom, #c4e6ff 400px, #fafafa 200px, #fafafa);
+	/*background: linear-gradient(to bottom, #141a61 400px, #fafafa 200px, #fafafa);*/
+	background: linear-gradient(to bottom, rgba(37,123,216,.1) 400px, #fafafa 200px, #fafafa);
 
 
 }
+.cards__row .cards__col:nth-child(6n+1){
+	width: 100%;
+}
 .card{
-	height: 300px;
+	height: 302px;
 	border-radius: 5px;
 	    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
 	    transition: all .5s ease;
+	    margin: 0 20px 40px;
+	    overflow-x: hidden;
+	    border-color: transparent;
+	    border: 0px solid rgba(0, 0, 0, 0);
 }
-.card-img{
+.card__img{
 	width: auto;
 	height: 300px;
 	background: #c5d2d9 no-repeat 50%;
@@ -37,7 +42,7 @@ h2{
 	    font-weight: 100;
 	    text-rendering: optimizeLegibility;
 }
-.card-body{
+.card__body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -57,18 +62,19 @@ h2.card__title{
 	margin-bottom: 16px;
 	margin-left: 0px;
 }
-.card-body p{
+.card__body p{
 	font-size: 16px;
 	font-weight: 100;
 	    font-family: georgia;
+	        margin-bottom: 20px;
 }
-.card-body .author img{
+.card__body .author img{
 	
 }
-.card-body .author span{
+.card__body .author span{
 
 }
-.card-body span.minutes{
+.card__body span.minutes{
 	color: #738a94;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -78,53 +84,88 @@ h2.card__title{
 	/*background-color: transparent;
 	border-top: none;*/
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.card__author{
+	display: flex;
+	align-items: center;
 }
 .card__authorImg{
-	margin-right: 5px;
+	margin-right: 10px;
 	    width: 25px;
 	    height: 25px;
 	    border-radius: 100%;
 }
-.{
+/*.{
 	font-weight: 500;
 	    letter-spacing: .5px;
 	    text-transform: uppercase;
-}
-.cards__row .cards__col:nth-child(1){
-	width: 100%;
-}
-.cards__row .cards__col:nth-child(1) .card{
-	flex-direction: row;
-}
-.cards__row .cards__col:nth-child(1) a{
-	width: 68%;
-}
-.cards__row .cards__col:nth-child(1) .card-body{
-	width: 32%;
-}
+}*/
+
 
 .cards__row .cards__col:nth-child(2),
 .cards__row .cards__col:nth-child(3),
-.cards__row .cards__col:nth-child(4){
+.cards__row .cards__col:nth-child(4),
+.cards__row .cards__col:nth-child(5),
+.cards__row .cards__col:nth-child(6){
 	flex: 1 1 300px;
 	
 }
-.cards__row .cards__col:nth-child(2) .card-body,
-.cards__row .cards__col:nth-child(3) .card-body,
-.cards__row .cards__col:nth-child(4) .card-body{
+.cards__row .cards__col .card__body{
 	flex-direction: column;
-	height: 240px;
-	min-height: 240px;
+	height: 232px;
+	min-height: 232px;
 }
 
-/*.cards__row .cards__col:nth-child(2) .card-body .card-img,
-.cards__row .cards__col:nth-child(3) .card-body .card-img,
-.cards__row .cards__col:nth-child(4) .card-body .card-img{
-	height: 200px;
-	}*/
+.cards__row .cards__col .card{
+	height: inherit;
+	}
 
-.cards__row .cards__col:nth-child(2) .card-img,
-.cards__row .cards__col:nth-child(3) .card-img,
-.cards__row .cards__col:nth-child(4) .card-img{
+.cards__row .cards__col .card__img{
 	height: 200px;
 	}
+
+
+
+@media (min-width: 795px){
+	.cards__row .cards__col .card__body{
+		height: 262px;
+		min-height: 262px;
+	}
+	.cards__row .cards_col:nth-child(6n+1) .card__body {
+	    -ms-flex: 0 1 357px;
+	    flex: 0 1 357px;
+	}
+	.cards__row .cards__col:nth-child(6n+1){
+		width: 100%;
+	}
+	.cards__row .cards__col:nth-child(6n+1) .card{
+		flex-direction: row;
+	}
+	.cards__row .cards__col:nth-child(6n+1) a.card__preImg{
+		width: 68%;
+	}
+	.cards__row .cards__col:nth-child(6n+1) .card__img{
+		    height: 100%;
+	}
+	.cards__row .cards__col:nth-child(6n+1) .card__body{
+		/*width: 32%;*/
+		width: 60%;
+	}
+	.cards__row .cards__col:nth-child(6n+5),
+	.cards__row .cards__col:nth-child(6n+6){
+		flex: 1 1 300px;
+	}
+}
+@media (min-width: 992px){
+	.cards__row .cards__col:nth-child(6n+1) .card__body{
+		width:42%;
+		height: 300px;
+	}
+	.cards__row .cards__col:nth-child(6n+5),
+	.cards__row .cards__col:nth-child(6n+6){
+		width: 50%;	
+	}
+	
+}

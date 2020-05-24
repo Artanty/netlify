@@ -18,23 +18,16 @@ collections:
     # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
     # path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
-    # туц 
-    # media_folder: '{{path}}'
-    # public_folder: '{{path}}'
-    # туц утв
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      # - { label: "URL", name: "myslug", widget: "string" }
-      # - { label: "permalink", name: "permalink", widget: "string", default: "/index.php" }
-      # - { label: "foldermy", name: "foldermy", widget: "string" }
       - { label: "permalink", name: "permalink", widget: "string", default: "/index.html" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Cover Image", name: "thumbnail", widget: "image" }
       - {
-          label: "Author",
+          label: "Автор",
           name: "author",
           widget: "relation",
           collection: "authors",
@@ -47,13 +40,13 @@ collections:
           name: "tag",
           widget: "relation",
           collection: "tags",
-          displayFields: [display_name],
-          searchFields: [display_name],
+          displayFields: [name],
+          searchFields: [name],
           valueField: "name"
         }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
-    label: "Authors"
+    label: "Авторы"
     folder: "_authors/"
     # slug: "{{name}}"
     create: true
@@ -61,11 +54,12 @@ collections:
       preview: false
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
-      - { label: "Short Name", name: "name", widget: "string" }
-      - { label: "Diplay Name", name: "display_name", widget: "string" }
-      - { label: "Position", name: "position", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Cover Image", name: "thumbnail", widget: "image" }
+      - { label: "Имя", name: "name", widget: "string" }
+      - { label: "URL", name: "permalink", widget: "string", default: "latin_url" }
+      # - { label: "Diplay Name", name: "display_name", widget: "string" }
+      - { label: "Должность", name: "position", widget: "string" }
+      - { label: "Аватар", name: "thumbnail", widget: "image" }
+      - { label: "Био", name: "body", widget: "markdown" }
   - name: "tags"
     label: "Tags"
     folder: "_tags/"

@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="bs.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="page__posts">
 	
 <!-- <? include '../../header/nav.php';?> -->
 
@@ -22,6 +22,33 @@
 	
 
 	<img src="{{site.url}}/assets/img/header.png" alt="">
+	<section>
+		<ul class="tags">
+		{% for tag in site.tags %}
+		  {% assign t = tag | first %}
+		  {% assign posts = tag | last %}
+		  <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
+		{% endfor %}
+		</ul>
+	</section>
+	<section>
+		{% for tag in site.tags %}
+		  {% assign t = tag | first %}
+		  {% assign posts = tag | last %}
+
+		{{ t | downcase }}
+		<ul>
+		{% for post in posts %}
+		  {% if post.tags contains t %}
+		  <li>
+		    <a href="{{ post.url }}">{{ post.title }}</a>
+		    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+		  </li>
+		  {% endif %}
+		{% endfor %}
+		</ul>
+		{% endfor %}
+	</section>
 	<section class="screen1">
 		<div class="container">
 			<div class="row">
@@ -40,23 +67,24 @@
 				  <div class="cards__col">
 
 				  	<div class="card">
-				  		<a href="{{ post.url }}">
-				  			<div class="card-img" style="background-image:url('{{ post.thumbnail }}');"></div>
+				  		<a class="card__preImg" href="{{ post.url }}">
+				  			<div class="card__img" style="background-image:url('{{ post.thumbnail }}');"></div>
 				  		</a>
 
-				  	  	<div class="card-body">
+				  	  	<div class="card__body">
 				  	  	  <div class="card__top">
 				  	  	  	<span class="card__tags">{{ post.tags }}</span>
 				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
 				  	  	  	{{ post.content | slice: 0, 65 }}...
 				  	  	  </div>
 				  	  	  <div class="card__footer">
-
-				  	  	  	{% assign author = site.authors | where: 'name', post.author | first %}
-				  	  	  	{% if author %}
-							<img class="card__authorImg" src="{{author.thumbnail}}" alt="">
-							<a href="{{ author.url }}">{{ author.name }}</a>	 
-				  	  	  	{% endif %}
+				  	  	  	<div class="card__author">
+				  	  	  		{% assign author = site.authors | where: 'name', post.author | first %}
+				  	  	  		{% if author %}
+								<img class="card__authorImg" src="{{author.thumbnail}}" alt="">
+								<a href="{{ author.url }}">{{ author.name }}</a>	 
+				  	  	  		{% endif %}
+				  	  	  	</div>
 
 				  	  	  	{% assign words = post.content | number_of_words %}
 				  	  	  	<span class="minutes">{{ words | divided_by:180 }} мин.</span>				  	  	  	
