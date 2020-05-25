@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: articles/ai
+permalink: news/ai
 title: Искусственный интеллект
 date: 2020-05-14T06:29:43.145Z
 thumbnail: /images/uploads/bryan-goff-f7yqo-eyhdm-unsplash.jpg

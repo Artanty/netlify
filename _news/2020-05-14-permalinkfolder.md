@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: articles/kucha_pisem
+permalink: news/kucha_pisem
 title: Куча писем
 date: 2020-05-14T06:39:55.682Z
 thumbnail: /images/uploads/joanna-kosinska-b6ydtys2igy-unsplash.jpg

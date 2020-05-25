@@ -161,6 +161,8 @@ h2.card__title{
 	padding: 12px 22px;
 	font-size: 16px;
 	margin-right: 19px;
+	color: #fff;
+	background: #dd2d26;
 }
 .screen1__date{
 	text-transform: uppercase;

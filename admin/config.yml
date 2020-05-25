@@ -12,7 +12,7 @@ media_folder: "images/uploads"
 # public_folder: /media
 collections:
   - name: "post" #Used in routes, e.g. /admin/collections/blog
-    label: "Post"
+    label: "Статьи"
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
     # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -77,6 +77,38 @@ collections:
 
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Cover Image", name: "thumbnail", widget: "image" }
+  - name: "news_post"
+    label: "Новости"
+    folder: "_news/"
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "permalink", name: "permalink", widget: "string", default: "/index.html" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Cover Image", name: "thumbnail", widget: "image" }
+      # - {
+      #     label: "Автор",
+      #     name: "author",
+      #     widget: "relation",
+      #     collection: "authors",
+      #     displayFields: [display_name],
+      #     searchFields: [display_name],
+      #     valueField: "name"
+      #   }
+      # - {
+      #     label: "Tag",
+      #     name: "tag",
+      #     widget: "relation",
+      #     collection: "tags",
+      #     displayFields: [display_name],
+      #     searchFields: [display_name],
+      #     valueField: "name"
+      #   }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     editor:

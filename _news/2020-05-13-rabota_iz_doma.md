@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: articles/rabota_iz_doma
+permalink: news/rabota_iz_doma
 title: Как организовать работу из дома
 date: 2020-05-13T22:47:20.655Z
 thumbnail: /images/uploads/ofisnii_plankton.jpg

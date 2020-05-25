@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: articles/sam
+permalink: news/sam
 title: Илон Маск и Сэм Альтмэн
 date: 2020-05-14T06:48:42.517Z
 thumbnail: /images/uploads/patrick-tomasso-noqnqpp934o-unsplash.jpg

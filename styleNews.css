@@ -22,7 +22,7 @@ h1{
 	color:#3e3e3e;
 }
 .card__img{
-	    width: 100px;
-	    height: 100px;
+	    width: 200px;
+	        height: 120px;
 	background-size: cover;
 }
