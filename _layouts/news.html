@@ -1,0 +1,66 @@
+<head>
+<? 
+
+	$dir = '../../../'; 
+	$title = '{{page.title}}';
+	include '../../header/head.php';
+
+?>
+
+<link rel="stylesheet" href="{{site.url}}/bs.min.css">
+<link rel="stylesheet" href="{{site.url}}/styleNews.css">
+</head>
+<body class="page__news">
+	
+<!-- <? include '../../header/nav.php';?> -->
+	<!-- <h1>This is a post title: {{page.title}}</h1> -->
+
+	<img src="{{site.url}}/assets/img/header.png" alt="">
+	
+	<section class="screen1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h1>Новости</h1>
+					<!-- {% for tag in site.tags %}
+					<a href="{{ tag.url }}">{{ tag.display_name }}</a>
+					{% endfor %} -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="content">
+		<div class="container">
+			<div class="row cards__row">
+
+				{% for post in site.news %}
+
+				  <div class="cards__col">
+
+				  	<div class="card">
+				  		<a class="card__preImg" href="{{ post.url }}">
+				  			<div class="card__img" style="background-image:url('{{ post.thumbnail }}');"></div>
+				  		</a>
+
+				  	  	<div class="card__body">
+				  	  	  <div class="card__top">
+				  	  	  	
+				  	  	  	<span class="card__tags">{{post.date | date: "%m/%d/%Y"}}</span>
+				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
+				  	  	  	{{ post.content | slice: 0, 65 }}...
+				  	  	  </div>
+				  	  	  <div class="card__footer">
+				  	  	  	
+				  	  	  </div>
+				  	  	</div>
+				  	</div>
+				  </div>
+				  
+				{% endfor %}
+				
+			</div>
+		</div>
+	</section>
+
+<script src="{{site.url}}/bs.min.js"></script>
+</body>

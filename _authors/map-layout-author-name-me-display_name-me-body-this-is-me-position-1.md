@@ -1,5 +1,5 @@
 ---
-layout: author
+layout: post_author
 name: antoshkin
 display_name: Артем Антошкин
 permalink: antoshkin

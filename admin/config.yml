@@ -40,8 +40,8 @@ collections:
           name: "tag",
           widget: "relation",
           collection: "tags",
-          displayFields: [name],
-          searchFields: [name],
+          displayFields: [display_name],
+          searchFields: [display_name],
           valueField: "name"
         }
       - { label: "Body", name: "body", widget: "markdown" }

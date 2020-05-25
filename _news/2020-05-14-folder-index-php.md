@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news_post
 permalink: articles/sam
 title: Илон Маск и Сэм Альтмэн
 date: 2020-05-14T06:48:42.517Z

@@ -1,0 +1,28 @@
+/*tag pag*/
+h1 span{
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	
+}
+/*tag page end*/
+
+.screen1{
+	padding:40px 0px;
+}
+.screen1{
+	/*text-align: center;*/
+	padding-top: 40px;
+	background: #efefef;
+}
+h1{
+	font-size: 38px;
+	font-weight: 700;
+	letter-spacing: -.36px;
+	color:#3e3e3e;
+}
+.card__img{
+	    width: 100px;
+	    height: 100px;
+	background-size: cover;
+}

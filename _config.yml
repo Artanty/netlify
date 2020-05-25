@@ -31,6 +31,8 @@ collections:
     output: true
   tags:
     output: true
+  news:
+    output: true
 twitter_username: jekyllrb
 github_username:  jekyll
 

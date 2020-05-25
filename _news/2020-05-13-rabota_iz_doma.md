@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news_post
 permalink: articles/rabota_iz_doma
 title: Как организовать работу из дома
 date: 2020-05-13T22:47:20.655Z

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news_post
 permalink: articles/kucha_pisem
 title: Куча писем
 date: 2020-05-14T06:39:55.682Z

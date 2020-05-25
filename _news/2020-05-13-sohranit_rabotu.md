@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news_post
 permalink: articles/sohranit_rabotu
 title: Как сохранить работу и что делать в кризис
 date: 2020-05-13T20:56:15.301Z

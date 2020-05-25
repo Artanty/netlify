@@ -1,5 +1,5 @@
 ---
-layout: author
+layout: post_author
 name: clark_kent
 display_name: Кларк Кент
 permalink: clark_kent

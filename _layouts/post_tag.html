@@ -7,8 +7,8 @@
 
 ?>
 
-<link rel="stylesheet" href="bs.min.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="{{site.url}}/bs.min.css">
+<link rel="stylesheet" href="{{site.url}}/style.css">
 </head>
 <body class="page__posts">
 	
@@ -27,12 +27,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<h1>Статьи</h1>
-					{% for tag in site.tags %}
-					  <!-- {% assign t = tag | first %}
-					  {% assign posts = tag | last %} -->
-					  <a href="{{ tag.url }}" title="Смотреть все {{ posts | size }}">{{ tag.display_name }}</a>
-					{% endfor %}
+					<h1><span>Статьи по теме:</span><br>{{page.display_name}}</h1>
+
+
 				</div>
 			</div>
 		</div>
@@ -40,8 +37,9 @@
 	<section class="content">
 		<div class="container">
 			<div class="row cards__row">
-
-				{% for post in site.posts %}
+				{% assign filtered_posts = site.posts | where: 'tag', page.name %} 
+				{% for post in filtered_posts %}
+				
 
 				  <div class="cards__col">
 
@@ -52,7 +50,8 @@
 
 				  	  	<div class="card__body">
 				  	  	  <div class="card__top">
-				  	  	  	<span class="card__tags">{{ post.tags }}</span>
+				  	  	  	{% assign posttag = site.tags | where: 'name', post.tag | first %}
+				  	  	  	<span class="card__tags">{{ posttag.display_name }}</span>
 				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
 				  	  	  	{{ post.content | slice: 0, 65 }}...
 				  	  	  </div>
@@ -78,5 +77,5 @@
 		</div>
 	</section>
 
-<script src="bs.min.js"></script>
+<script src="{{site.url}}/bs.min.js"></script>
 </body>
