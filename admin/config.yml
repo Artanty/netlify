@@ -109,6 +109,7 @@ collections:
       #     valueField: "name"
       #   }
       - { label: "Body", name: "body", widget: "markdown" }
+  
   - name: "pages"
     label: "Pages"
     editor:
