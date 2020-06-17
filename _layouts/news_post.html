@@ -1,4 +1,6 @@
+<html lang="ru">
 <head>
+	<meta charset="UTF-8">
 <? 
 
 	$dir = '../../../'; 
@@ -25,7 +27,7 @@
 			</div> -->
 			<div class="col-12 col-md-6 mx-auto align-items-center d-flex">
 				<div>
-					<time class="screen1__date color2">{{ page.date | date_to_string }}</time>
+					<time class="screen1__date color2">{{ page.date | date: "%m/%d/%Y" }}</time>
 					<!-- <span class="delimiter color2">/</span>
 					{% assign posttag = site.tags | where: 'name', page.tag | first %}
 					<a class="screen1_tag color2" href="{{posttag.url}}">{{ posttag.display_name }}</a> -->
@@ -65,3 +67,4 @@
 	
 <script src="{{site.url}}/bs.min.js"></script>
 </body>
+</html>

@@ -2,7 +2,7 @@
 layout: post_author
 name: clark_kent
 display_name: Кларк Кент
-permalink: clark_kent
+permalink: articles/authors/clark_kent
 position: Журналист
 thumbnail: /images/uploads/2020-05-24_12-36-51.png
 ---

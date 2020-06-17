@@ -2,7 +2,7 @@
 layout: post_author
 name: antoshkin
 display_name: Артем Антошкин
-permalink: antoshkin
+permalink: articles/authors/antoshkin
 position: Ведущий маркетолог
 thumbnail: /images/uploads/myphoto.jpg
 ---

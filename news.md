@@ -1,5 +1,5 @@
 ---
 layout: news
-title: About
+title: Новости
 permalink: /news/
 ---
