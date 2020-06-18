@@ -3,6 +3,8 @@ layout: videomaterials
 permalink: knowledge/videomaterials/first
 title: первый
 date: 2020-06-18T20:54:17.706Z
+category: "{{permalink}}"
+tag: techno
 ---
 первый видео пост 12
 
