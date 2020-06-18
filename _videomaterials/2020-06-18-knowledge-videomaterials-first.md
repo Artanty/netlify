@@ -1,6 +1,6 @@
 ---
 layout: videomaterials
-permalink: knowledge/videomaterials/first
+permalink: knowledge/videomaterials/first1
 title: первый
 date: 2020-06-18T20:54:17.706Z
 ---
