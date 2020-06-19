@@ -3,10 +3,12 @@ layout: post
 permalink: knowledge/articles/sam
 title: Илон Маск и Сэм Альтмэн
 date: 2020-05-14T06:48:42.517Z
-thumbnail: /images/uploads/patrick-tomasso-noqnqpp934o-unsplash.jpg
+thumbnail: ""
 tag: languages
 ---
 Будучи переполненными подобными страхами, исследователи исключили из опубликованной научной работы полную модель системы или 8 миллионов веб-страниц, которые были использованы для ее обучения. В прошлом институт прикреплял полный код к своим публикациям, включая более раннюю версию языкового проекта прошлого лета.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AaY4vpFFfwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Сомнения OpenAI сопровождается нарастающей озабоченностью этической стороной прогресса ИИ, в том числе среди ИТ-компаний и законодателей.
 
