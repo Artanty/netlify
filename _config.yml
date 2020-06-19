@@ -27,11 +27,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
-  authors:
+  categories:
     output: true
   tags:
     output: true
   news:
+    output: true
+  videomaterials:
     output: true
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -41,19 +43,19 @@ theme: minima
 plugins:
   - jekyll-feed
 
-defaults:
-  - scope:
-      path: ''
-      type: authors
-    values:
-      permalink: "/blog/authors/:name/"
-      layout: author
-  - scope:
-      path: ''
-      type: tags
-    values:
-      permalink: "/blog/tags/:name/"
-      layout: tag
+# defaults:
+#   - scope:
+#       path: ''
+#       type: category
+#     values:
+#       permalink: "/blog/category/:name/"
+#       layout: category
+#   - scope:
+#       path: ''
+#       type: tags
+#     values:
+#       permalink: "/blog/tag/:name/"
+#       layout: tag
 # defaults:
 #   - scope:
 #       path: "assets/img"

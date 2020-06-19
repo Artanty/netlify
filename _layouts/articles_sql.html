@@ -1,0 +1,154 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+<? 
+
+	$dir = '../../../'; 
+	$title = '{{page.title}}';
+	include '../../header/head.php';
+
+
+?>
+
+<link rel="stylesheet" href="{{site.url}}/bs.min.css">
+<link rel="stylesheet" href="{{site.url}}/style.css">
+</head>
+<body class="page__posts">
+	
+<!-- <? include '../../header/nav.php';?> -->
+
+	
+	
+	
+	<!-- <h1>This is a post title: {{page.title}}</h1> -->
+
+	
+
+	<img src="{{site.url}}/assets/img/header.png" alt="">
+	<section>
+<?php
+		header("Access-Control-Allow-Origin: *");
+		header("Access-Control-Allow-Methods: PUT, GET, POST, DELETE");
+		header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+		
+		define('DB_HOST', 'localhost');
+		define('DB_USER', 'root');
+		define('DB_PASS', 'root');
+		define('DB_NAME', 'test');
+
+		function connect()
+		{
+		  $connect = mysqli_connect(DB_HOST ,DB_USER ,DB_PASS ,DB_NAME);
+
+		  if (mysqli_connect_errno($connect)) {
+		    die("Failed to connect:" . mysqli_connect_error());
+		  }
+
+		  mysqli_set_charset($connect, "utf8");
+
+		  return $connect;
+		}
+
+		$con = connect();
+//query
+		$sql = "SELECT * FROM mytable";
+
+		if($result = mysqli_query($con,$sql))
+		{
+		  $i = 0;
+		  while($row = mysqli_fetch_assoc($result))
+		  {
+		    $policies[$i]['id'] = $row['id'];
+		    $policies[$i]['text'] = $row['text'];
+		    $i++;
+		  }
+
+		  echo json_encode($policies);
+		}
+		
+		
+
+		
+?>
+	</section>
+	<section>
+		[
+		  {% for post in site.posts %}
+		    {
+		      "title"    : "{{ post.title | escape }}",
+		      "category" : "{{ post.category }}",
+		      "tags"     : "{{ post.tags | join: ', ' }}",
+		      "url"      : "{{ site.baseurl }}{{ post.url }}",
+		      "date"     : "{{ post.date }}"
+		    } {% unless forloop.last %},{% endunless %}
+		  {% endfor %}
+		]
+	</section>
+	<section>
+		<?
+			{% for post in site.posts %}
+			    $sql = 'INSERT INTO `mytable`(`text`,`richText`,`markdown`,`url`)
+			    VALUES("{{ post.title | escape }}","{{post.content}}","{{post.content}}","eee")';
+				$result = mysqli_query($con,$sql);
+			{% endfor %}
+		?>
+	</section>
+	<section class="screen1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h1>Статьи</h1>
+					{% for tag in site.tags %}
+					  <!-- {% assign t = tag | first %}
+					  {% assign posts = tag | last %} -->
+					  <a href="{{ tag.url }}">{{ tag.display_name }}</a>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="content">
+		<div class="container">
+			<div class="row cards__row">
+
+				{% for post in site.posts %}
+
+				  <div class="cards__col">
+
+				  	<div class="card">
+				  		<a class="card__preImg" href="{{ post.url }}">
+				  			<div class="card__img" style="background-image:url('{{ post.thumbnail }}');"></div>
+				  		</a>
+
+				  	  	<div class="card__body">
+				  	  	  <div class="card__top">
+				  	  	  	{% assign posttag = site.tags | where: 'name', post.tag | first %}
+				  	  	  	<span class="card__tags">{{ posttag.display_name }}</span>
+				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
+				  	  	  	{{ post.content | slice: 0, 65 }}...
+				  	  	  </div>
+				  	  	  <div class="card__footer">
+				  	  	  	<div class="card__author">
+				  	  	  		{% assign author = site.authors | where: 'name', post.author | first %}
+				  	  	  		{% if author %}
+								<img class="card__authorImg" src="{{author.thumbnail}}" alt="">
+								<a href="{{ author.url }}">{{ author.display_name }}</a>	 
+				  	  	  		{% endif %}
+				  	  	  	</div>
+
+				  	  	  	{% assign words = post.content | number_of_words %}
+				  	  	  	<span class="minutes">{{ words | divided_by:180 }} мин.</span>				  	  	  	
+				  	  	  </div>
+				  	  	</div>
+				  	</div>
+				  </div>
+				  
+				{% endfor %}
+				
+			</div>
+		</div>
+	</section>
+
+<script src="{{site.url}}/bs.min.js"></script>
+</body>
+</html>

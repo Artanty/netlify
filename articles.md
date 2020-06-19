@@ -1,5 +1,5 @@
 ---
 layout: articles
 title: Статьи
-permalink: /articles/
+permalink: knowledge/articles/
 ---

@@ -18,52 +18,92 @@ collections:
     # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
     # path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
+    # extension: "md"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "permalink", name: "permalink", widget: "string", default: "/index.html" }
+      - { label: "permalink", name: "permalink", widget: "string", default: "knowledge/articles/" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Cover Image", name: "thumbnail", widget: "image" }
+      - { label: "Cover Image", name: "thumbnail", widget: "image", required: false } 
       - {
-          label: "Автор",
-          name: "author",
+          label: "Категория",
+          name: "category",
           widget: "relation",
-          collection: "authors",
+          collection: "categories",
           displayFields: [display_name],
           searchFields: [display_name],
-          valueField: "name"
+          valueField: "name",
+          required: false
         }
       - {
-          label: "Tag",
+          label: "Тэги",
           name: "tag",
           widget: "relation",
           collection: "tags",
           displayFields: [display_name],
           searchFields: [display_name],
-          valueField: "name"
+          valueField: "name",
+          required: false
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "authors"
-    label: "Авторы"
-    folder: "_authors/"
+  - name: "videomaterial" #Used in routes, e.g. /admin/collections/blog
+    label: "Видеоматериалы"
+    folder: "_videomaterials/"
+    create: true # Allow users to create new documents in this collection
+    # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    # path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
+    # extension: "md"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "videomaterial" }
+      - { label: "permalink", name: "permalink", widget: "string", default: "knowledge/videomaterials/" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Cover Image", name: "thumbnail", widget: "image", required: false } 
+      - {
+          label: "Категория",
+          name: "category",
+          widget: "relation",
+          collection: "categories",
+          displayFields: [display_name],
+          searchFields: [display_name],
+          valueField: "name",
+          required: false
+        }
+      - {
+          label: "Тэги",
+          name: "tag",
+          widget: "relation",
+          collection: "tags",
+          displayFields: [display_name],
+          searchFields: [display_name],
+          valueField: "name",
+          required: false
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "categories"
+    label: "Категории"
+    folder: "_categories/"
     # slug: "{{name}}"
     create: true
     editor:
       preview: false
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
-      - { label: "Имя", name: "display_name", widget: "string" }
-      
+      - { label: "Layout", name: "layout", widget: "hidden", default: "category" }
+      - { label: "Название", name: "display_name", widget: "string" }
+      - { label: "ID", name: "id", widget: "string" }
       - { label: "URL", name: "permalink", widget: "string", default: "latin_url" }
       - { label: "Short Name", name: "name", widget: "hidden", default: "{{permalink}}"}
-      
-      - { label: "Должность", name: "position", widget: "string" }
-      - { label: "Аватар", name: "thumbnail", widget: "image" }
-      - { label: "Био", name: "body", widget: "markdown" }
+      - { label: "Картинка", name: "thumbnail", widget: "image" }
+      # - { label: "Должность", name: "position", widget: "string" }
+      # - { label: "Аватар", name: "thumbnail", widget: "image" }
+      - { label: "Описание", name: "body", widget: "markdown" }
   - name: "tags"
-    label: "Tags"
+    label: "Тэги"
     folder: "_tags/"
     create: true
     editor:

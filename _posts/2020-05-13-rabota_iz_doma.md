@@ -1,10 +1,10 @@
 ---
 layout: post
-permalink: articles/rabota_iz_doma
+permalink: knowledge/articles/rabota_iz_doma
 title: Как организовать работу из дома
 date: 2020-05-13T22:47:20.655Z
 thumbnail: /images/uploads/ofisnii_plankton.jpg
-author: clark_kent
+
 tag: languages
 ---
 Карантин ударил по всей экономике и благосостоянию каждого человека. Многие потеряли работу, а те компании, которые смогли адаптироваться в этой ситуации, перевели сотрудников на “удаленку”. О том, как быстро наладить и оптимизировать новый рабочий формат, 7days рассказал основатель центра образовательных технологий Advance Николай Ягодкин. 

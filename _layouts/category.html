@@ -1,0 +1,22 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+	
+	<h1>{{ page.display_name }}</h1>
+	<h2>{{ page.id }}</h2>
+
+	{{ content }}
+
+	<h2>Posts</h2>
+	<ul>
+	  {% assign filtered_posts = site.posts | where: 'category', page.name %} 
+	  {% for post in filtered_posts %}
+	  <li>
+	    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	  </li>
+	  {% endfor %}
+	</ul>
+</body>
+</html>

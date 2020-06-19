@@ -24,7 +24,14 @@
 	
 
 	<img src="{{site.url}}/assets/img/header.png" alt="">
-	
+	<section>
+		<!-- HTML elements for search -->
+		<input type="text" id="search-input" placeholder="Search blog posts..">
+		<ul id="results-container"></ul>
+
+		<!-- or without installing anything -->
+		<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+	</section>
 	<section class="screen1">
 		<div class="container">
 			<div class="row">
@@ -61,10 +68,10 @@
 				  	  	  </div>
 				  	  	  <div class="card__footer">
 				  	  	  	<div class="card__author">
-				  	  	  		{% assign author = site.authors | where: 'name', post.author | first %}
-				  	  	  		{% if author %}
+				  	  	  		{% assign category = site.category | where: 'name', post.category | first %}
+				  	  	  		{% if category %}
 								<img class="card__authorImg" src="{{author.thumbnail}}" alt="">
-								<a href="{{ author.url }}">{{ author.display_name }}</a>	 
+								<a href="{{ category.url }}">{{ category.display_name }}</a>	 
 				  	  	  		{% endif %}
 				  	  	  	</div>
 
@@ -80,7 +87,13 @@
 			</div>
 		</div>
 	</section>
-
+<script>
+	var sjs = SimpleJekyllSearch({
+	  searchInput: document.getElementById('search-input'),
+	  resultsContainer: document.getElementById('results-container'),
+	  json: '/search.json'
+	})
+</script>
 <script src="{{site.url}}/bs.min.js"></script>
 </body>
 </html>
