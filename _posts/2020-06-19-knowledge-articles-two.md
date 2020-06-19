@@ -10,4 +10,4 @@ ssdsds
 
 two
 
-<img src="http://img.youtube.com/vi/https://www.youtube.com/watch?v=yhCuCqJbOVE/maxresdefault.jpg" alt="Youtube Video"/>
+<img src="http://img.youtube.com/vi/yhCuCqJbOVE/maxresdefault.jpg" alt="Youtube Video"/>
