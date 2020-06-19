@@ -3,16 +3,16 @@ layout: post
 permalink: knowledge/articles/ai
 title: Искусственный интеллект
 date: 2020-05-14T06:29:43.145Z
-thumbnail: /images/uploads/bryan-goff-f7yqo-eyhdm-unsplash.jpg
+thumbnail: ""
 tag: languages
 ---
 OpenAI позволила журналу WIRED поиграться со своим генератором текста, предоставив веб-страницу, где можно ввести текст, который служит для системы описанием письменного задания. Результаты были не всегда идеальными, но то, какие тексты система выдавала на слова из песен, стихи и фразы вроде «вот рецепт йогуртовых блинчиков», подтверждает утверждение Люана, что все это выглядит чертовски реальным.
 
-youtube AaY4vpFFfwg
+<img src="http://img.youtube.com/vi/https://www.youtube.com/watch?v=yhCuCqJbOVE/maxresdefault.jpg" alt="Youtube Video"/>
 
+two
 
-
-youtube https://www.youtube.com/watch?v=yhCuCqJbOVE
+<img src="http://img.youtube.com/vi/yhCuCqJbOVE/maxresdefault.jpg" alt="Youtube Video"/>
 
 Однако при этом система OpenAI с такой же легкостью воспроизводит и работу дезинформаторов. Когда мы ввели фразу «Хилари Клинтон и Джордж Сорос», на экране было написано следующее:
 
