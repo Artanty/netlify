@@ -15,9 +15,9 @@ thumbnail: /images/uploads/naskolko_effektivny_kursy_skorochteniya_dlya_detey-01
 
 Если вам интересны подробности скорочтения для детей, смотрите видео:
 
+<img src="http://img.youtube.com/vi/https://www.youtube.com/watch?v=INSsZk-5Pco/maxresdefault.jpg" alt="Youtube Video"/>
 
-
-youtube https://www.youtube.com/watch?v=INSsZk-5Pco
+<img src="http://img.youtube.com/vi/INSsZk-5Pco/maxresdefault.jpg" alt="Youtube Video"/>
 
 Курсы скорочтения содержат самые эффективные методики, которые в состоянии исправить ошибки и улучшить текущий уровень. В старших классах объем информации существенно увеличивается, и ребенок может погрязнуть в материале. Чтобы этого не произошло, на наших курсах ребята изучают 8 методик скорочтения и понимают, в каких ситуациях логично каждую применять. Мы учим детей не только читать в 2 раза быстрее, но тренируем их концентрацию внимания, запоминание (чтобы хорошо помнить прочитанное, и чтение было эффективным), навык выделения главного и учим работать с большим количеством информации, что полезно в школе. С чего начать, чтобы научиться быстро читать, смотрите [здесь](knowledge/articles/skorochtenie_s_chego_nachat_chtoby_nauchitsya_bystro_chitat/index.html).
 
