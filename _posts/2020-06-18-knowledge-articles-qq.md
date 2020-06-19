@@ -6,7 +6,7 @@ date: 2020-06-18T21:32:12.340Z
 thumbnail: ""
 tag: languages
 ---
-daawd
+one
 
 youtube https://www.youtube.com/watch?v=yhCuCqJbOVE
 
