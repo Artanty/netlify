@@ -115,11 +115,11 @@ h2.card__title{
 }*/
 
 
-.cards__row .cards__col:nth-child(2),
-.cards__row .cards__col:nth-child(3),
-.cards__row .cards__col:nth-child(4),
-.cards__row .cards__col:nth-child(5),
-.cards__row .cards__col:nth-child(6){
+.cards__row .cards__col:nth-child(6n+2),
+.cards__row .cards__col:nth-child(6n+3),
+.cards__row .cards__col:nth-child(6n+4),
+.cards__row .cards__col:nth-child(6n+5),
+.cards__row .cards__col:nth-child(6n+6){
 	flex: 1 1 300px;
 	
 }
