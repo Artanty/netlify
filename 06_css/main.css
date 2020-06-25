@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+
+/*HELPER CLASSES*/
+
+/*убрать все стили со ссылки или с кнопки - добавляем: .link-unstyled*/
+.link-unstyled,
+.link-unstyled:visited,
+.link-unstyled:hover,
+.link-unstyled:active,
+.link-unstyled:focus,
+.link-unstyled:active:hover {
+  font-style: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: inherit;
+  text-decoration: none;
+  font-variant: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  border-radius: inherit;
+  border: inherit;
+  outline: inherit;
+  box-shadow: inherit;
+  padding: inherit;
+  vertical-align: inherit;
+}
+/*HELPER CLASSES END*/
+
+button{
+  outline:0 none !important;
+}
+.container-fluid-old .modal {
+  height:inherit; 
+}

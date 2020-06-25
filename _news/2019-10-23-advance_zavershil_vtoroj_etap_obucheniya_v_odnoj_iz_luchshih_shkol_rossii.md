@@ -1,9 +1,9 @@
 ---
 layout: news_post
-permalink: news/news/advance_zavershil_vtoroj_etap_obucheniya_v_odnoj_iz_luchshih_shkol_rossii/index.html
+permalink: about/news/advance_zavershil_vtoroj_etap_obucheniya_v_odnoj_iz_luchshih_shkol_rossii/index.html
 title: Advance завершил второй этап обучения в одной из лучших школ России
 date: 2019-10-23T11:00:32.811Z
-thumbnail: /images/uploads/news/advance_zavershil_vtoroj_etap_obucheniya_v_odnoj_iz_luchshih_shkol_rossii-01.jpg
+thumbnail: /images/uploads/advance_zavershil_vtoroj_etap_obucheniya_v_odnoj_iz_luchshih_shkol_rossii-01.jpg
 ---
 Второй этап крупнейшего проекта Advance в Химкинском лицее №17 закончен. Новый учебный год с новых методик начало еще 236 учеников из 2, 3, 6, 8, 9, и 10 классов. Обучение проходило с 15 сентября по 4 октября.
 

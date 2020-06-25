@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/master_klassy_dlya_shkolnikov_v_gorode_otkrytiy/index.html
+permalink: about/news/master_klassy_dlya_shkolnikov_v_gorode_otkrytiy/index.html
 title: Мастер-классы для школьников в “Городе открытий”
 date: 2020-06-23T11:00:32.811Z
 thumbnail: /images/uploads/master_klassy_dlya_shkolnikov_v_gorode_otkrytiy-01.jpg

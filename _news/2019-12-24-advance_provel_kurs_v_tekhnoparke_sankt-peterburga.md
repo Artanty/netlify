@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_provel_kurs_v_tekhnoparke_sankt-peterburga/index.html
+permalink: about/news/advance_provel_kurs_v_tekhnoparke_sankt-peterburga/index.html
 title: Advance провел курс в Технопарке Санкт-Петербурга
 date: 2019-12-24T11:00:32.811Z
 thumbnail: /images/uploads/advance_provel_kurs_v_tekhnoparke_sankt-peterburga-01.jpg

@@ -1,32 +1,50 @@
+{% assign dir = "../../" %}
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-<? 
+	{% include head.html %}
 
-	$dir = '../../../'; 
-	$title = '{{page.title}}';
-	include '../../header/head.php';
 
-?>
-
-<link rel="stylesheet" href="{{site.url}}/bs.min.css">
-<link rel="stylesheet" href="{{site.url}}/styleNews.css">
+	<link rel="stylesheet" href="{{dir}}06_css/knowledge_articles/style.css">
+	<link rel="stylesheet" href="{{dir}}06_css/about_news/style.css">
 </head>
 <body class="page__news">
-	
-<!-- <? include '../../header/nav.php';?> -->
-	<!-- <h1>This is a post title: {{page.title}}</h1> -->
-
-	<img src="{{site.url}}/assets/img/header.png" alt="">
-	
+	{% include header.html %}
+	<main>
 	<section class="screen1">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-6">
 					<h1>Новости</h1>
-					<!-- {% for tag in site.tags %}
-					<a href="{{ tag.url }}">{{ tag.display_name }}</a>
+					<!-- {% for tag in site.tags %} -->
+					  <!-- {% assign t = tag | first %}
+					  {% assign posts = tag | last %} -->
+					  <!-- <a href="{{ tag.url }}">{{ tag.display_name }}</a>
 					{% endfor %} -->
+				</div>
+				<div class="col-md-6">
+					<!-- HTML elements for search -->
+					
+					<input type="text" id="search-input" class="search-input" placeholder="Поиск по новостям..">
+
+					<ul id="results-container" class="results-container"></ul>
+					<!-- <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script> -->
+					<!-- Import SimpleJekyllSearch scripts by CDN -->
+					 <script
+					     src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+
+					 <!-- Initialize SimpleJekyllSearch Plugin -->
+					 <script>
+					     window.simpleJekyllSearch = new SimpleJekyllSearch({
+					         searchInput: document.getElementById('search-input'),
+					         resultsContainer: document.getElementById('results-container'),
+					         json: '/about/news/search.json',
+					         searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+					         noResultsText: 'Ничего не найдено',
+					         limit: 10,
+					         fuzzy: false,
+					         exclude: ['Welcome']
+					     })
+					 </script>
 				</div>
 			</div>
 		</div>
@@ -39,6 +57,7 @@
 		}
 		.card__body{
 			margin-left: 30px;
+			padding: 10px 40px;
 		}
 		h2{
 			color: #353535;
@@ -72,8 +91,7 @@
 			</div>
 		</div>
 	</section>
-	
-
-<script src="{{site.url}}/bs.min.js"></script>
+	</main>
+	{% include footer.html %}
 </body>
 </html>

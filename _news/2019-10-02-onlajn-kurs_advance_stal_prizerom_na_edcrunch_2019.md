@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/onlajn-kurs_advance_stal_prizerom_na_edcrunch_2019/index.html
+permalink: about/news/onlajn-kurs_advance_stal_prizerom_na_edcrunch_2019/index.html
 title: Онлайн-курс Advance стал призером на EDCRUNCH 2019
 date: 2019-10-02T11:00:32.811Z
 thumbnail: /images/uploads/onlajn-kurs_advance_stal_prizerom_na_edcrunch_2019-01.jpg

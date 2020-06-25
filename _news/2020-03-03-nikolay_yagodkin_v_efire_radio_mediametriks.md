@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/nikolay_yagodkin_v_efire_radio_mediametriks/index.html
+permalink: about/news/nikolay_yagodkin_v_efire_radio_mediametriks/index.html
 title: Николай Ягодкин в эфире радио Медиаметрикс
 date: 2020-03-03T11:00:32.811Z
 thumbnail: /images/uploads/nikolay_yagodkin_v_efire_radio_mediametriks-01.jpg

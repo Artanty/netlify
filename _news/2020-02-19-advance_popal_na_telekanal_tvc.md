@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_popal_na_telekanal_tvc/index.html
+permalink: about/news/advance_popal_na_telekanal_tvc/index.html
 title: Advance попал на телеканал ТВЦ
 date: 2020-02-19T11:00:32.811Z
 thumbnail: /images/uploads/advance_popal_na_telekanal_tvc-01.jpg

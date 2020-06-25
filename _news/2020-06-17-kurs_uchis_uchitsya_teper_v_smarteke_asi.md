@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/kurs_uchis_uchitsya_teper_v_smarteke_asi/index.html
+permalink: about/news/kurs_uchis_uchitsya_teper_v_smarteke_asi/index.html
 title: Курс “Учись учиться” теперь в Смартеке АСИ
 date: 2020-06-17T11:00:32.811Z
 thumbnail: /images/uploads/kurs_uchis_uchitsya_teper_v_smarteke_asi-01.jpg

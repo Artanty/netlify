@@ -1,0 +1,84 @@
+footer {
+    background-color: #303843;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Muller', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer a {
+    /*color: #fff;*/
+    color:#ddd;
+}
+
+footer a:visited {
+    color: #cdcdcd;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    line-height: 2;
+}
+
+/*заголовки разделов навигации*/
+footer .row.footer-nav>ul>li>a {
+    font-family: 'Muller', sans-serif;
+    font-weight: 400;
+}
+
+footer .row.footer-nav a {
+    font-family: 'Muller', sans-serif;
+}
+
+footer .soc {
+    cursor: default;
+}
+
+footer .soc ul,
+footer .tel ul {
+    padding-left: 0;
+}
+
+footer .soc ul li {
+    display: inline-block;
+    margin-top: 4px;
+    border-radius: 25px;
+    background: inherit;
+    transition: all 0.3s;
+    height: 30px;
+}
+
+footer .soc ul li:hover {
+    background: #376c99;
+}
+
+footer .soc ul li a img {
+    width: 30px;
+}
+
+/*footer .soc ul li a img:hover{
+  filter: sepia(100%);
+
+}*/
+footer .rights {
+    font-size: 12px;
+    color: #fff;
+}
+
+@media(max-width: 767px) {
+    footer .soc ul {
+        padding-left: 0;
+    }
+}

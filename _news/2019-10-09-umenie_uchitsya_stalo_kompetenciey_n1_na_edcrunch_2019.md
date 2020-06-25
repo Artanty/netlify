@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/umenie_uchitsya_stalo_kompetenciey_n1_na_edcrunch_2019/index.html
+permalink: about/news/umenie_uchitsya_stalo_kompetenciey_n1_na_edcrunch_2019/index.html
 title: “Умение учиться” стало компетенцией №1 на EDCRUNCH 2019
 date: 2019-10-09T11:00:32.811Z
 thumbnail: /images/uploads/umenie_uchitsya_stalo_kompetenciey_n1_na_edcrunch_2019-01.jpg

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/inchamp_stal_luchshim_obrazovatelnym_proektom_2019_goda/index.html
+permalink: about/news/inchamp_stal_luchshim_obrazovatelnym_proektom_2019_goda/index.html
 title: INCHAMP стал лучшим образовательным проектом 2019 года
 date: 2019-12-27T11:00:32.811Z
 thumbnail: /images/uploads/inchamp_stal_luchshim_obrazovatelnym_proektom_2019_goda-01.jpg

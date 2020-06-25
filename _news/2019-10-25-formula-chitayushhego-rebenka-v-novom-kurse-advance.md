@@ -1,9 +1,9 @@
 ---
 layout: news_post
-permalink: news/news/formula-chitayushhego-rebenka-v-novom-kurse-advance/index.html
+permalink: about/news/formula-chitayushhego-rebenka-v-novom-kurse-advance/index.html
 title: Формула читающего ребенка в новом курсе Advance
 date: 2019-10-25T11:00:32.811Z
-thumbnail: /images/uploads/news/formula-chitayushhego-rebenka-v-novom-kurse-advance-01.jpg
+thumbnail: /images/uploads/formula-chitayushhego-rebenka-v-novom-kurse-advance-01.jpg
 ---
 До сих пор приходится заставлять ребенка читать? У современного родителя много проблем: дети предпочитают компьютерные игры, не могут сфокусироваться на тексте, медленно читают и упускают смысл. Так как же привить им любовь к чтению?
 

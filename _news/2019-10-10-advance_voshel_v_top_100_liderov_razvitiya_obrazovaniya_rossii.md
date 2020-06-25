@@ -1,9 +1,9 @@
 ---
 layout: news_post
-permalink: news/news/advance_voshel_v_top_100_liderov_razvitiya_obrazovaniya_rossii/index.html
+permalink: about/news/advance_voshel_v_top_100_liderov_razvitiya_obrazovaniya_rossii/index.html
 title: Advance вошел в ТОП-100 лидеров развития образования России
 date: 2019-10-10T11:00:32.811Z
-thumbnail: /images/uploads/news/advance_voshel_v_top_100_liderov_razvitiya_obrazovaniya_rossii-01.jpg
+thumbnail: /images/uploads/advance_voshel_v_top_100_liderov_razvitiya_obrazovaniya_rossii-01.jpg
 ---
 Целевой отбор проводили эксперты Агентства стратегических инициатив 7 и 8 октября на площадке «Точка Кипения» в Москве. По его результатам наш центр занял 7 строчку.
 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_perezagruzil_kurs_stan_geniem/index.html
+permalink: about/news/advance_perezagruzil_kurs_stan_geniem/index.html
 title: Advance перезагрузил курс “Стань гением”
 date: 2019-10-30T11:00:32.811Z
 thumbnail: /images/uploads/advance_perezagruzil_kurs_stan_geniem-01.jpg

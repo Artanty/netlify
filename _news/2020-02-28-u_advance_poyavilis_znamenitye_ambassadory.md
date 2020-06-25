@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/u_advance_poyavilis_znamenitye_ambassadory/index.html
+permalink: about/news/u_advance_poyavilis_znamenitye_ambassadory/index.html
 title: У Advance появились знаменитые амбассадоры
 date: 2020-03-03T11:00:32.811Z
 thumbnail: /images/uploads/u_advance_poyavilis_znamenitye_ambassadory-01.jpg

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "muller";
+  src: url("./../08_fonts/muller/MullerRegular.otf") format("opentype")
+}
+@font-face {
+  font-family: "mullerLight";
+  src: url("./../08_fonts/muller/MullerLight.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "roboto-bold";
+  src: url("./../08_fonts/roboto/Roboto-Bold.ttf") format("opentype")
+}

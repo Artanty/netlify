@@ -1,9 +1,9 @@
 ---
 layout: news_post
-permalink: news/news/advance_prinyal_uchastie_v_eksperimente_skolkovo/index.html
+permalink: about/news/advance_prinyal_uchastie_v_eksperimente_skolkovo/index.html
 title: Advance принял участие в эксперименте “Сколково”
 date: 2019-10-11T11:00:32.811Z
-thumbnail: /images/uploads/news/advance_prinyal_uchastie_v_eksperimente_skolkovo-01.jpg
+thumbnail: /images/uploads/advance_prinyal_uchastie_v_eksperimente_skolkovo-01.jpg
 ---
 7 октября сотрудники компании Advance участвовали в эксперименте с нейроинтерфейсами. Целью было проанализировать активность левой лобной доли головного мозга. По наблюдениям ученых, именно эта зона наиболее коррелирует с мозговой активностью. Меряли 2 состояния - активность и расслабленность.
 

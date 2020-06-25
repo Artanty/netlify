@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/subset-MullerLight.eot);
+    src: url("muller/subset-MullerLight.eot?#iefix") format("embedded-opentype"), url(muller/subset-MullerLight.woff2) format("woff2"), url(muller/subset-MullerLight.woff) format("woff"), url("muller/Fontfabric - Light.otf") format("opentype");
+    font-weight: 300;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/subset-MullerRegular.eot);
+    src: url("muller/subset-MullerRegular.eot?#iefix") format("embedded-opentype"), url(muller/subset-MullerRegular.woff2) format("woff2"), url(muller/subset-MullerRegular.woff) format("woff"), url("muller/Fontfabric - Regular.otf") format("opentype");
+    font-weight: 400;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/subset-MullerRegularItalic.eot);
+    src: url("muller/subset-MullerRegularItalic.eot?#iefix") format("embedded-opentype"), url(muller/subset-MullerRegularItalic.woff2) format("woff2"), url(muller/subset-MullerRegularItalic.woff) format("woff"), url("muller/Fontfabric - RegularItalic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/subset-MullerMedium.eot);
+    src: url("muller/subset-MullerMedium.eot?#iefix") format("embedded-opentype"), url(muller/subset-MullerMedium.woff2) format("woff2"), url(muller/subset-MullerMedium.woff) format("woff"), url("muller/Fontfabric - Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/subset-MullerMediumItalic.eot);
+    src: url("muller/subset-MullerMediumItalic.eot?#iefix") format("embedded-opentype"), url(muller/subset-MullerMediumItalic.woff2) format("woff2"), url(muller/subset-MullerMediumItalic.woff) format("woff"), url("muller/Fontfabric - MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/subset-MullerBold.eot);
+    src: url("muller/subset-MullerBold.eot?#iefix") format("embedded-opentype"), url(muller/subset-MullerBold.woff2) format("woff"), url(muller/subset-MullerBold.woff) format("woff"), url("muller/Fontfabric - Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/subset-MullerBoldItalic.eot);
+    src: url("muller/subset-MullerBoldItalic.eot?#iefix") format("embedded-opentype"), url(muller/subset-MullerBoldItalic.woff2) format("woff"), url(muller/subset-MullerBoldItalic.woff) format("woff"), url("muller/Fontfabric - BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/subset-MullerExtraBold.eot);
+    src: url("muller/subset-MullerExtraBold.eot?#iefix") format("embedded-opentype"), url(muller/subset-MullerExtraBold.woff2) format("woff2"), url(muller/subset-MullerExtraBold.woff) format("woff"), url("muller/Fontfabric - ExtraBold.otf") format("opentype");
+    font-weight: 800;
+    font-display: fallback;
+}
+
+
+@font-face {
+    font-family: 'Muller Black';
+    src: url(muller/MullerBlack.otf) format("opentype");
+    font-weight: 900;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url(muller/Fontfabric-MullerBlackItalic.otf) format("opentype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: fallback;
+}
+
+
+
+@font-face {
+    font-family: 'Muller Heavy';
+    src: url(muller/MullerHeavy.eot);
+    src: url("muller/MullerHeavy.eot?#iefix") format("embedded-opentype"), url(muller/MullerHeavy.woff2) format("woff2"), url(muller/MullerHeavy.woff) format("woff"), url("muller/MullerHeavy.otf") format("opentype");
+    font-weight: 900;
+    font-display: fallback;
+}

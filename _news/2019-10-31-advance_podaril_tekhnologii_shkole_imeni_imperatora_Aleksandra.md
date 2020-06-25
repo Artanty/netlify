@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_podaril_tekhnologii_shkole_imeni_imperatora_Aleksandra_lll/index.html
+permalink: about/news/advance_podaril_tekhnologii_shkole_imeni_imperatora_Aleksandra_lll/index.html
 title: Advance и обучение в Хорошколе
 date: 2019-10-31T11:00:32.811Z
 thumbnail: /images/uploads/advance_podaril_tekhnologii_shkole_imeni_imperatora_Aleksandra_lll-01.jpg

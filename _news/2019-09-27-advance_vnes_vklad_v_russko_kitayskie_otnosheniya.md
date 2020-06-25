@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_vnes_vklad_v_russko_kitayskie_otnosheniya/index.html
+permalink: about/news/advance_vnes_vklad_v_russko_kitayskie_otnosheniya/index.html
 title: Advance внес вклад в русско-китайские отношения
 date: 2019-09-27T11:00:32.811Z
 thumbnail: /images/uploads/advance_vnes_vklad_v_russko_kitayskie_otnosheniya-01.jpg

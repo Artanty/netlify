@@ -1,5 +1,5 @@
 ---
 layout: news
 title: Новости
-permalink: /news/
+permalink: about/news/
 ---

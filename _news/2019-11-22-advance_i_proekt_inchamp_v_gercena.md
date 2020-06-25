@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_i_proekt_inchamp_v_gercena/index.html
+permalink: about/news/advance_i_proekt_inchamp_v_gercena/index.html
 title: Advance и проект INCHAMP в Герцена
 date: 2019-11-22T11:00:32.811Z
 thumbnail: /images/uploads/advance_i_proekt_inchamp_v_gercena-01.jpg

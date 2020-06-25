@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/kurs_uchis_uchitsya_poluchil_podderzhku_asi/index.html
+permalink: about/news/kurs_uchis_uchitsya_poluchil_podderzhku_asi/index.html
 title: Курс “Учись учиться” получил поддержку АСИ
 date: 2020-02-11T11:00:32.811Z
 thumbnail: /images/uploads/kurs_uchis_uchitsya_poluchil_podderzhku_asi-01.jpg

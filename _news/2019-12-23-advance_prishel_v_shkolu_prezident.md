@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_prishel_v_shkolu_prezident/index.html
+permalink: about/news/advance_prishel_v_shkolu_prezident/index.html
 title: Advance пришел в школу “ПРЕЗИДЕНТ”
 date: 2019-12-23T11:00:32.811Z
 thumbnail: /images/uploads/advance_prishel_v_shkolu_prezident-01.jpg

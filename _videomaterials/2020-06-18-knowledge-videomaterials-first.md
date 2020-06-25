@@ -1,11 +1,10 @@
 ---
 layout: videomaterial
-permalink: knowledge/videomaterials/firstee.html
+permalink: knowledge/videomaterials/first/index.html
 title: первый
 date: 2020-06-18T20:54:17.706Z
-category: "{{permalink}}"
-tag: techno
+thumbnail: /images/uploads/angliyskiy_na_sluh_kak_ponimat_angliyskuyu_rech-01.jpg
 ---
-первый видео пост 12
+первый видео пост 12 первый видео пост 12 первый видео пост 12 первый видео пост 12 первый видео пост 12
 
 youtube https://www.youtube.com/watch?v=AaY4vpFFfwg

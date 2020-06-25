@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_budet_sotrudnichat_s_obrazovatelnym_centrom_sirius/index.html
+permalink: about/news/advance_budet_sotrudnichat_s_obrazovatelnym_centrom_sirius/index.html
 title: Advance будет сотрудничать с образовательным центром “Сириус”
 date: 2020-02-21T11:00:32.811Z
 thumbnail: /images/uploads/advance_budet_sotrudnichat_s_obrazovatelnym_centrom_sirius-01.jpg

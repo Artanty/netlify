@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/kurs_uchis_uchitsya_v_klassah_sibura_v_tobolske/index.html
+permalink: about/news/kurs_uchis_uchitsya_v_klassah_sibura_v_tobolske/index.html
 title: Курс “Учись учиться” в классах СИБУРа в Тобольске
 date: 2020-05-21T11:00:32.811Z
 thumbnail: /images/uploads/kurs_uchis_uchitsya_v_klassah_sibura_v_tobolske-01.jpg

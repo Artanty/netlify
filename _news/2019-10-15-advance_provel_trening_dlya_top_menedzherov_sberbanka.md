@@ -1,9 +1,9 @@
 ---
 layout: news_post
-permalink: news/news/advance_provel_trening_dlya_top_menedzherov_sberbanka/index.html
+permalink: about/news/advance_provel_trening_dlya_top_menedzherov_sberbanka/index.html
 title: Advance провел тренинг для топ - менеджеров Сбербанка
 date: 2019-10-15T11:00:32.811Z
-thumbnail: /images/uploads/news/advance_provel_trening_dlya_top_menedzherov_sberbanka-01.jpg
+thumbnail: /images/uploads/advance_provel_trening_dlya_top_menedzherov_sberbanka-01.jpg
 ---
 17 и 18 августа руководители высшего звена собрались на площадке Корпоративного университета Сбербанка. Обучение длилось 2 дня по 8 часов.
 

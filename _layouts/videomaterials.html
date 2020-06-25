@@ -1,47 +1,49 @@
+{% assign dir = "../../" %}
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-<? 
+	{% include head.html %}
 
-	$dir = '../../../'; 
-	$title = '{{page.title}}';
-	include '../../header/head.php';
 
-?>
-
-<link rel="stylesheet" href="{{site.url}}/bs.min.css">
-<link rel="stylesheet" href="{{site.url}}/style.css">
+	<link rel="stylesheet" href="{{dir}}06_css/knowledge_articles/style.css">
 </head>
 <body class="page__posts">
-	
-<!-- <? include '../../header/nav.php';?> -->
-
-	
-	
-	
-	<!-- <h1>This is a post title: {{page.title}}</h1> -->
-
-	
-
-	<img src="{{site.url}}/assets/img/header.png" alt="">
-	<section>
-		<!-- HTML elements for search -->
-		<!-- <input type="text" id="search-input" placeholder="Search blog posts..">
-		<ul id="results-container"></ul> -->
-
-		<!-- or without installing anything -->
-		<!-- <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script> -->
-	</section>
+	{% include header.html %}
+	<main>
 	<section class="screen1">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
-					<h1>Статьи</h1>
-					{% for tag in site.tags %}
+				<div class="col-md-6">
+					<h1>Видеоматериалы</h1>
+					<!-- {% for tag in site.tags %} -->
 					  <!-- {% assign t = tag | first %}
 					  {% assign posts = tag | last %} -->
-					  <a href="{{ tag.url }}">{{ tag.display_name }}</a>
-					{% endfor %}
+					  <!-- <a href="{{ tag.url }}">{{ tag.display_name }}</a>
+					{% endfor %} -->
+				</div>
+				<div class="col-md-6">
+					<!-- HTML elements for search -->
+					
+					<input type="text" id="search-input" class="search-input" placeholder="Поиск по видеоматериалам..">
+
+					<ul id="results-container" class="results-container"></ul>
+					<!-- <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script> -->
+					<!-- Import SimpleJekyllSearch scripts by CDN -->
+					 <script
+					     src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+
+					 <!-- Initialize SimpleJekyllSearch Plugin -->
+					 <script>
+					     window.simpleJekyllSearch = new SimpleJekyllSearch({
+					         searchInput: document.getElementById('search-input'),
+					         resultsContainer: document.getElementById('results-container'),
+					         json: '/knowledge/videomaterials/search.json',
+					         searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+					         noResultsText: 'Ничего не найдено',
+					         limit: 10,
+					         fuzzy: false,
+					         exclude: ['Welcome']
+					     })
+					 </script>
 				</div>
 			</div>
 		</div>
@@ -54,7 +56,7 @@
 
 				  <div class="cards__col">
 
-				  	<div class="card">
+				  	<div class="card__div">
 				  		<a class="card__preImg" href="{{ post.url }}">
 				  			<div class="card__img" style="background-image:url('{{ post.thumbnail }}');"></div>
 				  		</a>
@@ -64,7 +66,11 @@
 				  	  	  	{% assign posttag = site.tags | where: 'name', post.tag | first %}
 				  	  	  	<span class="card__tags">{{ posttag.display_name }}</span>
 				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
-				  	  	  	{{ post.content | slice: 0, 65 }}...
+
+				  	  	  	{% if post.title.size < 35 %}
+				  	  	  	{{ post.content | slice: 0, 65 }}...  
+				  	  	  	{% endif %}
+				  	  	  	
 				  	  	  </div>
 				  	  	  <div class="card__footer">
 				  	  	  	<div class="card__author">
@@ -94,6 +100,7 @@
 	  json: '/search.json'
 	})
 </script> -->
-<script src="{{site.url}}/bs.min.js"></script>
+	</main>
+	{% include footer.html %}
 </body>
 </html>

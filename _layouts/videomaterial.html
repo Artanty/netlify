@@ -1,20 +1,17 @@
+{% assign dir = "../../../" %}
+
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-<? 
 
-	$dir = '../../../'; 
-	$title = '{{page.title}}';
-	include '../../header/head.php';
+	{% include head.html %}
 
-?>
-<link rel="stylesheet" href="{{site.url}}/bs.min.css">
-<link rel="stylesheet" href="{{site.url}}/style.css">
+	<link rel="stylesheet" href="{{dir}}06_css/knowledge_articles/style.css">
 </head>
 <body class="page__post">
-	
+	{% include header.html %}
+<main>	
 <!-- <? include '../../header/nav.php';?> -->
-<img src="{{site.url}}/assets/img/header.png" alt="">	
+<!-- <img src="{{site.url}}/assets/img/header.png" alt="">	 -->
 <section class="screen1">
 	<div class="container">
 		<div class="row">
@@ -28,9 +25,9 @@
 			<div class="col-12 col-md-6 mx-auto align-items-center d-flex">
 				<div>
 					<time class="screen1__date color2">{{ page.date | date: "%m/%d/%Y" }}</time>
-					<span class="delimiter color2">/</span>
+					<!-- <span class="delimiter color2">/</span>
 					{% assign posttag = site.tags | where: 'name', page.tag | first %}
-					<a class="screen1_tag color2" href="{{posttag.url}}">{{ posttag.display_name }}</a>
+					<a class="screen1_tag color2" href="{{posttag.url}}">{{ posttag.display_name }}</a> -->
 					<h1>{{ page.title }}</h1>
 				</div>
 				
@@ -64,16 +61,16 @@
 	
 	
 	
-	{% assign category = site.categories | where: 'name', page.category | first %}
-	{% if category %}
+	{% assign author = site.authors | where: 'name', page.author | first %}
+	{% if author %}
 	  
 	  	<section class="author mb-3">
 	  		<div class="container">
 	  			<div class="row">
 	  				<div class="col-12 mx-auto">
 	  					<div class="card__author">
-	  						<img class="card__authorImg" src="{{ category.thumbnail }}" alt="">
-	  						<a href="{{category.url}}">{{ category.display_name }}</a>
+	  						<img class="card__authorImg" src="{{ author.thumbnail }}" alt="">
+	  						<a href="{{author.url}}">{{ author.display_name }}</a>
 	  					</div>
 	  					
 	  				</div>
@@ -85,6 +82,8 @@
 	  	</section>
 
 	{% endif %}
-<script src="{{site.url}}/bs.min.js"></script>
+
+	</main>
+	{% include footer.html %}
 </body>
 </html>

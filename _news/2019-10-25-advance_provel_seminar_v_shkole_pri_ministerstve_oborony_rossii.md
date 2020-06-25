@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_provel_seminar_v_shkole_pri_ministerstve_oborony_rossii/index.html
+permalink: about/news/advance_provel_seminar_v_shkole_pri_ministerstve_oborony_rossii/index.html
 title: Advance провел семинар в школе при Министерстве обороны России
 date: 2019-10-25T11:00:32.811Z
 thumbnail: /images/uploads/advance_provel_seminar_v_shkole_pri_ministerstve_oborony_rossii-01.jpg

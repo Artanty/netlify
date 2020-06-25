@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/vse_kursy_advance_teper_mozhno_kupit_v_rassrochku/index.html
+permalink: about/news/vse_kursy_advance_teper_mozhno_kupit_v_rassrochku/index.html
 title: Все курсы Advance теперь можно купить в рассрочку
 date: 2019-12-19T11:00:32.811Z
 thumbnail: /images/uploads/vse_kursy_advance_teper_mozhno_kupit_v_rassrochku-01.jpg

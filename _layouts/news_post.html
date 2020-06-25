@@ -1,20 +1,17 @@
+{% assign dir = "../../../" %}
+
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-<? 
 
-	$dir = '../../../'; 
-	$title = '{{page.title}}';
-	include '../../header/head.php';
+	{% include head.html %}
 
-?>
-<link rel="stylesheet" href="{{site.url}}/bs.min.css">
-<link rel="stylesheet" href="{{site.url}}/style.css">
+	<link rel="stylesheet" href="{{dir}}06_css/knowledge_articles/style.css">
 </head>
 <body class="page__post">
-	
+	{% include header.html %}
+<main>	
 <!-- <? include '../../header/nav.php';?> -->
-<img src="{{site.url}}/assets/img/header.png" alt="">	
+<!-- <img src="{{site.url}}/assets/img/header.png" alt="">	 -->
 <section class="screen1">
 	<div class="container">
 		<div class="row">
@@ -64,7 +61,29 @@
 	
 	
 	
-	
-<script src="{{site.url}}/bs.min.js"></script>
+	{% assign author = site.authors | where: 'name', page.author | first %}
+	{% if author %}
+	  
+	  	<section class="author mb-3">
+	  		<div class="container">
+	  			<div class="row">
+	  				<div class="col-12 mx-auto">
+	  					<div class="card__author">
+	  						<img class="card__authorImg" src="{{ author.thumbnail }}" alt="">
+	  						<a href="{{author.url}}">{{ author.display_name }}</a>
+	  					</div>
+	  					
+	  				</div>
+	  				<div class="col">
+	  					
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</section>
+
+	{% endif %}
+
+	</main>
+	{% include footer.html %}
 </body>
 </html>

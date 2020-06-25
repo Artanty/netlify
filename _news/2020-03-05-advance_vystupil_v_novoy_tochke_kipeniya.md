@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/advance_vystupil_v_novoy_tochke_kipeniya/index.html
+permalink: about/news/advance_vystupil_v_novoy_tochke_kipeniya/index.html
 title: Advance выступил в новой “Точке кипения”
 date: 2020-03-05T11:00:32.811Z
 thumbnail: /images/uploads/advance_vystupil_v_novoy_tochke_kipeniya-01.jpg
