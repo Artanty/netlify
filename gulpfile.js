@@ -104,23 +104,23 @@ gulp.task('clean', function (done) {
 gulp.task('jekyllCopy',function(done){
 
   	gulp.src('_site/06_css/about_news/style.css')
-  		.pipe(newer('../netlify_to_advance/06_css/about_news/')
+  		.pipe(newer('../netlify_to_advance/06_css/about_news/'))
   			.pipe(gulp.dest('../netlify_to_advance/06_css/about_news/'));
 
   	gulp.src('_site/06_css/knowledge_articles/style.css')
-  		// .pipe(newer('../netlify_to_advance/06_css/knowledge_articles/'))
+  		.pipe(newer('../netlify_to_advance/06_css/knowledge_articles/'))
   			.pipe(gulp.dest('../netlify_to_advance/06_css/knowledge_articles/'));
 
   	gulp.src('_site/about/news/**/*')
-  		// .pipe(newer('../netlify_to_advance/about/news/'))
+  		.pipe(newer('../netlify_to_advance/about/news/'))
   			.pipe(gulp.dest('../netlify_to_advance/about/news/'));
 
   	gulp.src('_site/knowledge/articles/**/*')
-  		// .pipe(newer('../netlify_to_advance/knowledge/articles/'))
+  		.pipe(newer('../netlify_to_advance/knowledge/articles/'))
   			.pipe(gulp.dest('../netlify_to_advance/knowledge/articles/'));
 
   	gulp.src('_site/knowledge/videomaterials/**/*')
-  		// .pipe(newer('../netlify_to_advance/knowledge/videomaterials/'))
+  		.pipe(newer('../netlify_to_advance/knowledge/videomaterials/'))
   			.pipe(gulp.dest('../netlify_to_advance/knowledge/videomaterials/'));
     done();
 });

@@ -5,6 +5,5 @@ _site
 vendor
 node_modules
 gulpfile.js
-!gulpfile.js
 Gemfile
 Geemfile.lock
