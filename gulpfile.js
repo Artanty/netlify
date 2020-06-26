@@ -127,9 +127,13 @@ gulp.task('jekyllCopy',function(done){
 
 var childProcess = require('child_process');
 gulp.task('jekyllBuild', function(cb) {
-    var child = childProcess.exec('jekyll build', function(error, stdout, stderr) {
-        cb(error);
-    });
+	setTimeout(function () {
+            var child = childProcess.exec('jekyll build', function(error, stdout, stderr) {
+                cb(error);
+            });
+        }, 300);
+
+    
 });
 // gulp.task('default', gulp.series('jekyllBuild'));
 gulp.task('default', gulp.series('pull','jekyllBuild','min','jekyllCopy'));
