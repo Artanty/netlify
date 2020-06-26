@@ -125,6 +125,13 @@ gulp.task('jekyllCopy',function(done){
     done();
 });
 
-gulp.task('default', gulp.series('pull','min','jekyllCopy'));
+var childProcess = require('child_process');
+gulp.task('jekyllBuild', function(cb) {
+    var child = childProcess.exec('jekyll build', function(error, stdout, stderr) {
+        cb(error);
+    });
+});
+// gulp.task('default', gulp.series('jekyllBuild'));
+gulp.task('default', gulp.series('pull','jekyllBuild','min','jekyllCopy'));
 // gulp.task('default', gulp.series('pull','jekyllCopy'));
 // gulp.task('default', gulp.series('min','jekyllCopy'));
