@@ -111,7 +111,7 @@ gulp.task('jekyllCopy',function(done){
   		// .pipe(newer('../netlify_to_advance/06_css/knowledge_articles/'))
   			.pipe(gulp.dest('../netlify_to_advance/06_css/knowledge_articles/'));
 
-  	gulp.src('_site/about/news/*')
+  	gulp.src('_site/about/news/**/*')
   		// .pipe(newer('../netlify_to_advance/about/news/'))
   			.pipe(gulp.dest('../netlify_to_advance/about/news/'));
 
