@@ -138,6 +138,6 @@ gulp.task('jekyllBuild', function(cb) {
     
 // });
 // gulp.task('default', gulp.series('jekyllBuild'));
-gulp.task('default', gulp.series('pull','jekyllBuild','min','jekyllCopy'));
+gulp.task('default', gulp.series(['pull','jekyllBuild','min','jekyllCopy']));
 // gulp.task('default', gulp.series('pull','jekyllCopy'));
 // gulp.task('default', gulp.series('min','jekyllCopy'));
