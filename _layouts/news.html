@@ -13,6 +13,23 @@
 	<section class="screen1">
 		<div class="container">
 			<div class="row">
+				<div class="col-12">
+
+					<nav aria-label="breadcrumb">    
+					   <ol class="breadcrumbs">
+					     <li class="breadcrumb-item">
+					       <a href="{{site.url}}">Главная</a>
+					     </li>
+					     <li class="breadcrumb-item">
+					     	<a href="{{site.url}}/about/">Об Advance</a>
+					     </li>
+					     <li class="breadcrumb-item active">
+					     	<a href="{{site.url}}/{{page.permalink}}">{{page.title}}</a>
+					     </li>
+					   </ol>
+					</nav>
+					
+				</div>
 				<div class="col-md-6">
 					<h1>Новости</h1>
 					<!-- {% for tag in site.tags %} -->

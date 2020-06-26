@@ -15,8 +15,23 @@
 }
 .results-container{
 	margin-top: 8px;
-	    margin-left: 15px;
+	margin-left: 15px;
 }
+/*BREAD*/
+.breadcrumbs {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;	   
+}
+.breadcrumbs li.breadcrumb-item{
+    display: inline-block;
+}
+.breadcrumbs a,.breadcrumbs p {
+    color: #000;
+    font-family: 'muller';
+    font-size: 12px;	    
+}
+/*BREAD END*/
 main{
 	margin-bottom:40px;
 }
@@ -30,8 +45,11 @@ h1 span{
 /*tag page end*/
 
 .screen1{
-	padding:40px 0px;
+	padding-bottom:40px;
+	padding-top: 19px;
+	background: #efefef;
 }
+
 h1{
 	font-size: 38px;
 	font-weight: 700;
@@ -173,11 +191,7 @@ h2.card__title{
 .color2{
 	color:#3753a2!important;
 }
-.screen1{
-	/*text-align: center;*/
-	padding-top: 40px;
-	background: #efefef;
-}
+
 .page__posts .screen1 a.tags{
 	border: 1px solid #dd2d25;
 	border-radius: 50px;

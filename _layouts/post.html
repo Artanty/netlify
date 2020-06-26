@@ -22,8 +22,29 @@
 				<h1>{{ page.title }}</h1>
 				<img class="screen1__thumbnail" src="{{ page.thumbnail }}">
 			</div> -->
+			<div class="col-12">
+
+				<nav aria-label="breadcrumb">    
+				   <ol class="breadcrumbs">
+				     <li class="breadcrumb-item">
+				       <a href="{{site.url}}">Главная</a>
+				     </li>
+				     <li class="breadcrumb-item">
+				     	<a href="{{site.url}}/knowledge/">База знаний</a>
+				     </li>
+				     <li class="breadcrumb-item">
+				     	<a href="{{site.url}}/knowledge/articles/">Статьи</a>
+				     </li>
+				     <li class="breadcrumb-item active">
+				     	<a href="{{site.url}}/{{page.permalink}}">{{page.title}}</a>
+				     </li>
+				   </ol>
+				</nav>
+				
+			</div>
 			<div class="col-12 col-md-6 mx-auto align-items-center d-flex">
 				<div>
+					
 					<time class="screen1__date color2">{{ page.date | date: "%m/%d/%Y" }}</time>
 					<!-- <span class="delimiter color2">/</span>
 					{% assign posttag = site.tags | where: 'name', page.tag | first %}
