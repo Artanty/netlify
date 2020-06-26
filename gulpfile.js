@@ -40,7 +40,7 @@ const svgo = require('imagemin-svgo'); //SVG
 
 //основной таск - минимизация изображений
 gulp.task('imgMinToDest',function(done){ 
-  
+  setTimeout(function () {
   	gulp.src('_site/images/uploads/*')//берем из папки все изображения
   		.pipe(newer('../netlify_to_advance/images/uploads/'))
         // imgMin
@@ -57,7 +57,7 @@ gulp.task('imgMinToDest',function(done){
   		// imgMin END
         .pipe(gulp.dest('../netlify_to_advance/images/uploads/'));//кладем файлы в папку ready
         done();
-  
+  }, 3000);
 });
 //копия исходного файла в папку ready
 // gulp.task('rawImgToDest',function(done){
@@ -136,6 +136,8 @@ gulp.task('jekyllBuild', function(cb) {
         }, 3000);
 
     
-// });
-gulp.task('default', gulp.series('jekyllBuild'));
-// gulp.task('default', gulp.series('pull','jekyllBuild','min','jekyllCopy'));
+});
+// gulp.task('default', gulp.series('jekyllBuild'));
+gulp.task('default', gulp.series('pull','jekyllBuild','min','jekyllCopy'));
+// gulp.task('default', gulp.series('pull','jekyllCopy'));
+// gulp.task('default', gulp.series('min','jekyllCopy'));
