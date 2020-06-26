@@ -51,7 +51,8 @@ gulp.task('imgMinToDest',function(done){
   		        max: 90,
   		        min: 80
   		      }),
-  		      imageminPngquant({quality: [0.8, 0.9]}), //png  + options
+  		      // imageminPngquant({quality: [0.8, 0.9]}), //png  + options 6.14.5 version
+            imageminPngquant({quality: [80-90]}), //png  + options 6.0.1 version
   		      imagemin.svgo({plugins: [{removeViewBox: true}]}) //svg + options
   		    ]))
   		// imgMin END
