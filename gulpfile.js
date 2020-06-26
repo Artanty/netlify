@@ -107,5 +107,5 @@ gulp.task('jekyllCopy',function(done){
         done();
 });
 
-// gulp.task('default', gulp.series('pull','min','jekyllCopy'));
-gulp.task('default', gulp.series('pull','jekyllCopy'));
+gulp.task('default', gulp.series('pull','min','jekyllCopy'));
+// gulp.task('default', gulp.series('pull','jekyllCopy'));
