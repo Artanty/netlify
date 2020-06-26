@@ -98,9 +98,10 @@ gulp.task('clean', function (done) {
 
 // копия файлов jekyll
 gulp.task('jekyllCopy',function(done){
-  		gulp.src('_site/06_css/about_news/style.css').pipe(gulp.dest('../netlify_to_advance/about_news/'));
-  		gulp.src('_site/06_css/knowledge_articles/style.css').pipe(gulp.dest('../netlify_to_advance/knowledge_articles/'));
+  		gulp.src('_site/06_css/about_news/style.css').pipe(gulp.dest('../netlify_to_advance/06_css/about_news/'));
+  		gulp.src('_site/06_css/knowledge_articles/style.css').pipe(gulp.dest('../netlify_to_advance/06_css/knowledge_articles/'));
         done();
 });
 
-gulp.task('default', gulp.series('pull','min','jekyllCopy'));
+// gulp.task('default', gulp.series('pull','min','jekyllCopy'));
+gulp.task('default', gulp.series('pull','jekyllCopy'));
