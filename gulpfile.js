@@ -40,7 +40,7 @@ const svgo = require('imagemin-svgo'); //SVG
 
 //основной таск - минимизация изображений
 gulp.task('imgMinToDest',function(done){ 
-  		gulp.src('_site/images/uploads/*')//берем из папки все изображения
+  	gulp.src('_site/images/uploads/*')//берем из папки все изображения
   		.pipe(newer('../netlify_to_advance/images/uploads/'))
         // imgMin
   		.pipe(imagemin([
@@ -66,7 +66,7 @@ gulp.task('imgMinToDest',function(done){
 // });
 //копия исходного файла в папку backup
 gulp.task('rawImgToBackup',function(done){
-		gulp.src('_site/images/uploads/*')
+	gulp.src('_site/images/uploads/*')
 		.pipe(newer('../netlify_backup_imgs/'+now+'/'))					//берем из папки все изображения
 		.pipe(gulp.dest('../netlify_backup_imgs/'+now+'/'));		//копируем в папку backup
 		done();
@@ -102,9 +102,27 @@ gulp.task('clean', function (done) {
 
 // копия файлов jekyll
 gulp.task('jekyllCopy',function(done){
-  		gulp.src('_site/06_css/about_news/style.css').pipe(gulp.dest('../netlify_to_advance/06_css/about_news/'));
-  		gulp.src('_site/06_css/knowledge_articles/style.css').pipe(gulp.dest('../netlify_to_advance/06_css/knowledge_articles/'));
-        done();
+
+  	gulp.src('_site/06_css/about_news/style.css')
+  		// .pipe(newer('../netlify_to_advance/06_css/about_news/')
+  			.pipe(gulp.dest('../netlify_to_advance/06_css/about_news/'));
+
+  	gulp.src('_site/06_css/knowledge_articles/style.css')
+  		// .pipe(newer('../netlify_to_advance/06_css/knowledge_articles/'))
+  			.pipe(gulp.dest('../netlify_to_advance/06_css/knowledge_articles/'));
+
+  	gulp.src('_site/about/news/*')
+  		// .pipe(newer('../netlify_to_advance/about/news/'))
+  			.pipe(gulp.dest('../netlify_to_advance/about/news/'));
+
+  	gulp.src('_site/knowledge/articles/*')
+  		// .pipe(newer('../netlify_to_advance/knowledge/articles/'))
+  			.pipe(gulp.dest('../netlify_to_advance/knowledge/articles/'));
+
+  	gulp.src('_site/knowledge/videomaterials/*')
+  		// .pipe(newer('../netlify_to_advance/knowledge/videomaterials/'))
+  			.pipe(gulp.dest('../netlify_to_advance/knowledge/videomaterials/'));
+    done();
 });
 
 gulp.task('default', gulp.series('pull','min','jekyllCopy'));
