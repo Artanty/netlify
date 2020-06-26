@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var git = require('gulp-git');
 
+var newer = require('gulp-newer');//работает только с файлами, которые новее
+
 // GIT PULL
 
 // Run git pull
@@ -39,6 +41,7 @@ const svgo = require('imagemin-svgo'); //SVG
 //основной таск - минимизация изображений
 gulp.task('imgMinToDest',function(done){ 
   		gulp.src('_site/images/uploads/*')//берем из папки все изображения
+  		.pipe(newer('../netlify_to_advance/images/uploads/'))
         // imgMin
   		.pipe(imagemin([
   		      imagemin.gifsicle({interlaced: true}), //gif + options
@@ -63,7 +66,8 @@ gulp.task('imgMinToDest',function(done){
 // });
 //копия исходного файла в папку backup
 gulp.task('rawImgToBackup',function(done){
-		gulp.src('_site/images/uploads/*')					//берем из папки все изображения
+		gulp.src('_site/images/uploads/*')
+		.pipe(newer('../netlify_backup_imgs/'+now+'/'))					//берем из папки все изображения
 		.pipe(gulp.dest('../netlify_backup_imgs/'+now+'/'));		//копируем в папку backup
 		done();
 });
