@@ -131,7 +131,7 @@ gulp.task('jekyllBuild', function(cb) {
             var child = childProcess.exec('jekyll build', function(error, stdout, stderr) {
                 cb(error);
             });
-        }, 300);
+        }, 3000);
 
     
 });
