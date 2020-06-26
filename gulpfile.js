@@ -125,16 +125,16 @@ gulp.task('jekyllCopy',function(done){
     done();
 });
 
-var childProcess = require('child_process');
-gulp.task('jekyllBuild', function(cb) {
-	setTimeout(function () {
-            var child = childProcess.exec('jekyll build', function(error, stdout, stderr) {
-                cb(error);
-            });
-        }, 3000);
+// var childProcess = require('child_process');
+// gulp.task('jekyllBuild', function(cb) {
+// 	setTimeout(function () {
+//             var child = childProcess.exec('jekyll build', function(error, stdout, stderr) {
+//                 cb(error);
+//             });
+//         }, 3000);
 
     
-});
+// });
 // gulp.task('default', gulp.series('jekyllBuild'));
 // gulp.task('default', gulp.series('pull','jekyllBuild','min','jekyllCopy'));
 // gulp.task('default', gulp.series('pull','jekyllCopy'));
