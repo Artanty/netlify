@@ -38,7 +38,8 @@ const imageminJpegRecompress = require('imagemin-jpeg-recompress'); //JPEG
 const gifsicle = require('imagemin-gifsicle'); //GIF
 const svgo = require('imagemin-svgo'); //SVG
 
-const dest_advance_folder = '../netlify_to_advance/';
+// const dest_advance_folder = '../netlify_to_advance/';
+const dest_advance_folder = '../../advance/';
 
 //основной таск - минимизация изображений
 gulp.task('imgMinToDest',function(done){ 
