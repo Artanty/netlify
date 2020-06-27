@@ -3,7 +3,3 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-node_modules
-gulpfile.js
-Gemfile
-Geemfile.lock
