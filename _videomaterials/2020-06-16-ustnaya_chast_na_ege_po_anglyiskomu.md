@@ -1,7 +1,7 @@
 ---
 layout: videomaterial
 permalink: knowledge/videomaterials/ustnaya_chast_na_ege_po_anglyiskomu/index.html
-title: Устная часть на ЕГЭ по англйискому
+title: Устная часть на ЕГЭ по английскому
 date: 2020-06-16T20:54:17.706Z
 thumbnail: /images/uploads/ustnaya_chast_na_ege_po_anglyiskomu-01.jpg
 ---
