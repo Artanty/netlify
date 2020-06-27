@@ -38,11 +38,13 @@ const imageminJpegRecompress = require('imagemin-jpeg-recompress'); //JPEG
 const gifsicle = require('imagemin-gifsicle'); //GIF
 const svgo = require('imagemin-svgo'); //SVG
 
+const dest_advance_folder = '../netlify_to_advance/';
+
 //основной таск - минимизация изображений
 gulp.task('imgMinToDest',function(done){ 
   setTimeout(function () {
   	gulp.src('_site/images/uploads/*')//берем из папки все изображения
-  		.pipe(newer('../netlify_to_advance/images/uploads/'))
+  		.pipe(newer(dest_advance_folder+'images/uploads/'))
         // imgMin
   		.pipe(imagemin([
   		      imagemin.gifsicle({interlaced: true}), //gif + options
@@ -56,7 +58,7 @@ gulp.task('imgMinToDest',function(done){
   		      imagemin.svgo({plugins: [{removeViewBox: true}]}) //svg + options
   		    ]))
   		// imgMin END
-        .pipe(gulp.dest('../netlify_to_advance/images/uploads/'));//кладем файлы в папку ready
+        .pipe(gulp.dest(dest_advance_folder+'images/uploads/'));//кладем файлы в папку ready
         done();
   }, 3000);
 });
@@ -108,23 +110,23 @@ gulp.task('jekyllCopy',function(done){
 
   	gulp.src('_site/06_css/about_news/style.css')
   		// .pipe(newer('../netlify_to_advance/06_css/about_news/'))
-  			.pipe(gulp.dest('../netlify_to_advance/06_css/about_news/'));
+  			.pipe(gulp.dest(dest_advance_folder+'06_css/about_news/'));
 
   	gulp.src('_site/06_css/knowledge_articles/style.css')
   		// .pipe(newer('../netlify_to_advance/06_css/knowledge_articles/'))
-  			.pipe(gulp.dest('../netlify_to_advance/06_css/knowledge_articles/'));
+  			.pipe(gulp.dest(dest_advance_folder+'06_css/knowledge_articles/'));
 
   	gulp.src('_site/about/news/**/*')
   		// .pipe(newer('../netlify_to_advance/about/news/'))
-  			.pipe(gulp.dest('../netlify_to_advance/about/news/'));
+  			.pipe(gulp.dest(dest_advance_folder+'about/news/'));
 
   	gulp.src('_site/knowledge/articles/**/*')
   		// .pipe(newer('../netlify_to_advance/knowledge/articles/'))
-  			.pipe(gulp.dest('../netlify_to_advance/knowledge/articles/'));
+  			.pipe(gulp.dest(dest_advance_folder+'knowledge/articles/'));
 
   	gulp.src('_site/knowledge/videomaterials/**/*')
   		// .pipe(newer('../netlify_to_advance/knowledge/videomaterials/'))
-  			.pipe(gulp.dest('../netlify_to_advance/knowledge/videomaterials/'));
+  			.pipe(gulp.dest(dest_advance_folder+'knowledge/videomaterials/'));
     done();
 });
 
