@@ -3,7 +3,8 @@ layout: videomaterial
 permalink: knowledge/videomaterials/leksika_i_grammatika_na_ege_po_anglyiskomu_yazyku/index.html
 title: Лексика и грамматика на ЕГЭ по англйискому языку
 date: 2020-06-18T20:54:17.706Z
-thumbnail: /images/uploads/leksika_i_grammatika_na_ege_po_anglyiskomu_yazyku-01.jpg
+<!-- thumbnail: /images/uploads/leksika_i_grammatika_na_ege_po_anglyiskomu_yazyku-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Английская лексика для ЕГЭ. Как правильно описать то, что мы видим на картинке
 In the picture – на картине

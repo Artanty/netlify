@@ -3,7 +3,8 @@ layout: videomaterial
 permalink: knowledge/videomaterials/ege_po_angliyskomu_yazyku/index.html
 title: ЕГЭ по английскому языку
 date: 2020-06-22T20:54:17.706Z
-thumbnail: /images/uploads/ege_po_angliyskomu_yazyku-01.jpg
+<!-- thumbnail: /images/uploads/ege_po_angliyskomu_yazyku-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 ЕГЭ по Английскому языку, что вас ждет на экзамене и к чему следует готовиться
 

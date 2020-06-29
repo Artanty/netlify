@@ -1,9 +1,10 @@
 ---
 layout: videomaterial
 permalink: knowledge/videomaterials/pravilnaya_angliyskaya_leksika_dlya_znakomstv_poleznoe_video_chast_2/index.html
-title: Правильная английская лексика для знакомств. Полезное видео (часть 2)
+title: Правильная английская лексика для знакомств. Полезные видео. Часть 2
 date: 2020-06-25T20:54:17.706Z
-thumbnail: /images/uploads/pravilnaya_angliyskaya_leksika_dlya_znakomstv_poleznoe_video_chast_2-01.jpg
+<!-- thumbnail: /images/uploads/pravilnaya_angliyskaya_leksika_dlya_znakomstv_poleznoe_video_chast_2-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Английская лексика в жизни. Как надо и как не надо знакомиться с девушкой на Английском языке.
 

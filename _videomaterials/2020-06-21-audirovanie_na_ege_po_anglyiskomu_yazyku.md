@@ -3,7 +3,8 @@ layout: videomaterial
 permalink: knowledge/videomaterials/audirovanie_na_ege_po_anglyiskomu_yazyku/index.html
 title: Аудирование на ЕГЭ по английскому языку
 date: 2020-06-21T20:54:17.706Z
-thumbnail: /images/uploads/audirovanie_na_ege_po_anglyiskomu_yazyku-01.jpg
+<!-- thumbnail: /images/uploads/audirovanie_na_ege_po_anglyiskomu_yazyku-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Аудирование на максимальный балл. Советы
 

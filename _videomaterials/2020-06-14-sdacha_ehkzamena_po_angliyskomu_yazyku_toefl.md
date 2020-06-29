@@ -3,7 +3,8 @@ layout: videomaterial
 permalink: knowledge/videomaterials/sdacha_ehkzamena_po_angliyskomu_yazyku_toefl/index.html
 title: Полезные видеоролики по теме сдача экзамена по английскому языку TOEFL
 date: 2020-06-14T20:54:17.706Z
-thumbnail: /images/uploads/sdacha_ehkzamena_po_angliyskomu_yazyku_toefl-01.jpg
+<!-- thumbnail: /images/uploads/sdacha_ehkzamena_po_angliyskomu_yazyku_toefl-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Информация об Американском экзамене TOEFL
 и правилах его сдачи. Светлана Огородова
