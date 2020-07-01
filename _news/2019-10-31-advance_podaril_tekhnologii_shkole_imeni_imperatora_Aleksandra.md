@@ -1,7 +1,7 @@
 ---
 layout: news_post
 permalink: about/news/advance_podaril_tekhnologii_shkole_imeni_imperatora_Aleksandra_lll/index.html
-title: Advance и обучение в Хорошколе
+title: Advance подарил технологии школе имени императора Алексаднра III
 date: 2019-10-31T11:00:32.811Z
 thumbnail: /images/uploads/advance_podaril_tekhnologii_shkole_imeni_imperatora_Aleksandra_lll-01.jpg
 ---
