@@ -1,7 +1,7 @@
 ---
 layout: news_post
 permalink: about/news/obuchenie_v_odnoj_iz_luchshix_shkol_rossii_po_texnologiyam_advance/index.html
-title: Обучение в одной из лучших школ России по технологиям Advance
+title: Масштабный проект в Химках по технологиям Advance
 date: 2019-08-08T11:00:32.811Z
 thumbnail: /images/uploads/obuchenie_v_odnoj_iz_luchshix_shkol_rossii_po_texnologiyam_advance-01.jpg
 ---

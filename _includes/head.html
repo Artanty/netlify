@@ -15,10 +15,28 @@
 
 
 <title>{{page.title}}</title>
-<meta name="description" content="{{page.title}} | Advance"/>
+
+{% if page.layout == "videomaterial" %}
+{% assign pagetype = "База знаний - видеоматериалы Advance" %}
+
+{% elsif page.layout == "post" %}
+{% assign pagetype = "База знаний - статьи Advance" %}
+
+{% elsif page.layout == "news_post" %}
+{% assign pagetype = "Новости Advance" %}
+
+{% else %}
+{% assign pagetype = "Advance" %}
+
+{% endif %}
+
+
+
+
+<meta name="description" content="{{page.title}} | {{pagetype}}"/>
 
 <meta property="og:title" content="{{page.title}}"/>
-<meta property="og:description" content="{{page.title}} | Advance"/>
+<meta property="og:description" content="{{page.title}} | {{pagetype}}"/>
 <meta property="og:type" content="website" />    
 <meta property="og:locale" content="ru_RU" />    
 <meta property="og:url" content="https://advance-club.ru{{page.url}}" />
@@ -26,7 +44,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{page.title}}">
-<meta name="twitter:description" content="{{page.title}} | Advance">
+<meta name="twitter:description" content="{{page.title}} | {{pagetype}}">
 
 <meta name="twitter:image:src" content="https://advance-club.ru/05_imgs/og-logo_vk_1920x900.png">
 <meta property="og:image" content="https://advance-club.ru/05_imgs/og-logo_vk_1920x900.png">
