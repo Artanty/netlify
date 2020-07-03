@@ -3,7 +3,8 @@ layout: videomaterial
 permalink: knowledge/videomaterials/layfhaki_iz_chego_sostoit_angliyskiy_yazyk_i_kak_pravilno_ego_uchit_chast_2/index.html
 title: Лайфхаки - из чего состоит английский язык и как правильно его учить? Часть 2
 date: 2020-06-15T20:54:17.706Z
-thumbnail: /images/uploads/layfhaki_iz_chego_sostoit_angliyskiy_yazyk_i_kak_pravilno_ego_uchit_chast_2-01.jpg
+<!-- thumbnail: /images/uploads/layfhaki_iz_chego_sostoit_angliyskiy_yazyk_i_kak_pravilno_ego_uchit_chast_2-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Почему изучение иностранных языков в школе неэффективно?
 

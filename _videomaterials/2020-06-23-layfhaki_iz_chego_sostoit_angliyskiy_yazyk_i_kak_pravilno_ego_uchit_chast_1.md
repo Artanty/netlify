@@ -1,9 +1,10 @@
 ---
 layout: videomaterial
 permalink: knowledge/videomaterials/layfhaki_iz_chego_sostoit_angliyskiy_yazyk_i_kak_pravilno_ego_uchit_chast_1/index.html
-title: Лайфхаки. Из чего состоит английский язык и как правильно его учить? часть 1
+title: Лайфхаки. Из чего состоит английский язык и как правильно его учить? Часть 1
 date: 2020-06-23T20:54:17.706Z
-thumbnail: /images/uploads/layfhaki_iz_chego_sostoit_angliyskiy_yazyk_i_kak_pravilno_ego_uchit_chast_1-01.jpg
+<!-- thumbnail: /images/uploads/layfhaki_iz_chego_sostoit_angliyskiy_yazyk_i_kak_pravilno_ego_uchit_chast_1-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Любую задачу можно решить несколькими способами, и все эти они рано или поздно приведут вас к нужному результату. Но всегда можно найти путь, который будет проще и эффективнее. Мы собрали лучшие методики и лайфхаки для изучения английского языка благодаря которым вы сможете освоить иностранный язык с любого уровне.
 

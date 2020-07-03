@@ -1,9 +1,10 @@
 ---
 layout: videomaterial
 permalink: knowledge/videomaterials/poleznye_videoroliki_po_teme_sdacha_ehkzamena_po_angliyskomu_yazyku_ielts/index.html
-title: Полезные видеоролики по теме, сдача экзамена по английскому языку IELTS
+title: Полезные видеоролики по теме «Сдача экзамена по английскому языку IELTS»
 date: 2020-06-24T20:54:17.706Z
-thumbnail: /images/uploads/poleznye_videoroliki_po_teme_sdacha_ehkzamena_po_angliyskomu_yazyku_ielts-01.jpg
+<!-- thumbnail: /images/uploads/poleznye_videoroliki_po_teme_sdacha_ehkzamena_po_angliyskomu_yazyku_ielts-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 IELTS: для работы, учебы, переезда в другую страну.
 Как сдать экзамен, из чего он состоит

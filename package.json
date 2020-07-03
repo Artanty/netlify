@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Artanty/netlify#readme",
   "dependencies": {
     "del": "^5.1.0",
+    "execa": "^4.0.2",
     "gulp": "^4.0.2",
     "gulp-git": "^2.10.1",
     "gulp-imagemin": "^7.1.0",

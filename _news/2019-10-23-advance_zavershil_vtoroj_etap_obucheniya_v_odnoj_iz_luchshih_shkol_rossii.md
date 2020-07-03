@@ -1,7 +1,7 @@
 ---
 layout: news_post
 permalink: about/news/advance_zavershil_vtoroj_etap_obucheniya_v_odnoj_iz_luchshih_shkol_rossii/index.html
-title: Advance завершил второй этап обучения в одной из лучших школ России
+title: Advance завершил второй этап обучения в Химках
 date: 2019-10-23T11:00:32.811Z
 thumbnail: /images/uploads/advance_zavershil_vtoroj_etap_obucheniya_v_odnoj_iz_luchshih_shkol_rossii-01.jpg
 ---

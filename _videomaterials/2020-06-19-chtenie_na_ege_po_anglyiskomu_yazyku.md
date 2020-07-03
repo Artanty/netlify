@@ -1,9 +1,10 @@
 ---
 layout: videomaterial
 permalink: knowledge/videomaterials/chtenie_na_ege_po_anglyiskomu_yazyku/index.html
-title: Чтение на ЕГЭ по англйискому языку
+title: Чтение на ЕГЭ по английскому языку
 date: 2020-06-19T20:54:17.706Z
-thumbnail: /images/uploads/chtenie_na_ege_po_anglyiskomu_yazyku-01.jpg
+<!-- thumbnail: /images/uploads/chtenie_na_ege_po_anglyiskomu_yazyku-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Чтение на максимальный балл. Советы
 

@@ -3,7 +3,8 @@ layout: videomaterial
 permalink: knowledge/videomaterials/pismo_na_ege_po_angliyskomu_yazyku_ehsse_sekrety_ot_advance/index.html
 title: Письмо на ЕГЭ по английскому языку (эссе) - секреты от Advance
 date: 2020-06-17T20:54:17.706Z
-thumbnail: /images/uploads/pismo_na_ege_po_angliyskomu_yazyku_ehsse_sekrety_ot_advance-01.jpg
+<!-- thumbnail: /images/uploads/pismo_na_ege_po_angliyskomu_yazyku_ehsse_sekrety_ot_advance-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Письмо на максимальный балл. Эссе. Советы эксперта
 

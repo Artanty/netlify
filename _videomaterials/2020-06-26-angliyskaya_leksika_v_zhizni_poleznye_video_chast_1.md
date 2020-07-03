@@ -1,9 +1,10 @@
 ---
 layout: videomaterial
 permalink: knowledge/videomaterials/angliyskaya_leksika_v_zhizni_poleznye_video_chast_1/index.html
-title: первый
+title: Английская лексика в жизни. Полезные видео. Часть 1
 date: 2020-06-26T20:54:17.706Z
-thumbnail: /images/uploads/angliyskaya_leksika_v_zhizni_poleznye_video_chast_1-01.jpg
+<!-- thumbnail: /images/uploads/angliyskaya_leksika_v_zhizni_poleznye_video_chast_1-01.jpg -->
+thumbnail: /images/uploads/00_videomaterials.jpg
 ---
 Деловая этика, профессиональные комплименты и общение в офисе
 
