@@ -19,6 +19,7 @@ thumbnail: /images/uploads/povtoryajte_slova_na_sverxskorostyax_so_spritz-01.jpg
 
 Лайфхак: если хотите, например, читать со скоростью 400, то потренируйтесь на 450. Когда снова выставите 400 слов в минуту, станет намного проще.
 
+
 **Spritz для повторения**
 
 ![](/images/uploads/povtoryajte_slova_na_sverxskorostyax_so_spritz-03.jpg)
