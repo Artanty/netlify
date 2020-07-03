@@ -4,6 +4,5 @@ _site
 .jekyll-metadata
 vendor
 node_modules
-gulpfile.js
 Gemfile
-Geemfile.lock
+Gemfile.lock
