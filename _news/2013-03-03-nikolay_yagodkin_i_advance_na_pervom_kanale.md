@@ -9,3 +9,4 @@ thumbnail: /images/uploads/nikolay_yagodkin_i_advance_na_pervom_kanale-01.jpg
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ivNLS4FWYBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
