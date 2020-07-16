@@ -1,7 +1,7 @@
 ---
 layout: news_post
 permalink: about/news/advance_provel_master_klass_dlya_detey_programmistov/index.html
-title: Внедрение технологий Advance в школьную образовательную программу
+title: Advance провел мастер-класс для детей-программистов
 date: 2020-07-02T11:00:32.811Z
 thumbnail: /images/uploads/advance_provel_master_klass_dlya_detey_programmistov-01.jpg
 ---

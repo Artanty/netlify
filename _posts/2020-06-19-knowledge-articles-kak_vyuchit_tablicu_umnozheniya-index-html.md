@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: knowledge/articles/kak_vyuchit_tablicu_umnozheniya/index.html
-title: Научитесь работать с информацией эффективно
+title: Как выучить таблицу умножения
 date: 2020-06-19T21:28:46.032Z
 thumbnail: /images/uploads/kak_vyuchit_tablicu_umnozheniya-01.jpg
 ---
