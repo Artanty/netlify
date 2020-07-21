@@ -83,7 +83,9 @@
 				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
 
 				  	  	  	{% if post.title.size < 35 %}
-				  	  	  	{{ post.content | slice: 0, 65 }}...  
+				  	  	  		
+			  	  	  			{{ post.excerpt  | slice: 0, 65 | strip_html }}...  
+				  	  	  		
 				  	  	  	{% endif %}
 				  	  	  	
 				  	  	  </div>
