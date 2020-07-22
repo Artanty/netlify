@@ -15,17 +15,17 @@ collections:
     label: "Статьи"
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
-    # slug: "{{year}}-{{month}}-{{day}}-{{myslug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     slug: "{{year}}-{{month}}-{{day}}-{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    # slug: "{{year}}-{{month}}-{{day}}-{{translit}}-index-html" # Filename template, e.g., YYYY-MM-DD-title.md
     # path: '{{year}}-{{month}}-{{day}}-{{foldermy}}/{{year}}-{{month}}-{{day}}-{{foldermy}}-index'
+    
     # extension: "md"
     editor:
       # preview: false
       preview: true
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Транслит через http://translit-online.ru/yandex.html", name: "translit", widget: "string", default: "knowledge/articles/" }
-      - { label: "permalink", name: "permalink", widget: "string", value: "knowledge/articles/{{translit}}/index.html" }
+      - { label: "permalink http://translit-online.ru/yandex.html итог: knowledge/articles/zagolovok/index.html", name: "permalink", widget: "string", default: "knowledge/articles/ /index.html" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -129,7 +129,7 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "news_post" }
-      - { label: "permalink", name: "permalink", widget: "string", default: "news/ /index.html" }
+      - { label: "permalink", name: "permalink", widget: "string", default: "about/news/ /index.html" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Cover Image", name: "thumbnail", widget: "image" }
