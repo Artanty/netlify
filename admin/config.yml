@@ -24,8 +24,10 @@ collections:
       preview: true
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "permalink", name: "permalink", widget: "string", default: "knowledge/articles/" }
+      - { label: "Транслит через http://translit-online.ru/yandex.html", name: "translit", widget: "string", default: "knowledge/articles/" }
+      - { label: "permalink", name: "permalink", widget: "string", value: "knowledge/articles/{{translit}}/index.html" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Cover Image", name: "thumbnail", widget: "image", required: false } 
       - {
