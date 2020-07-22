@@ -1,3 +1,6 @@
+.content ol li{
+	list-style: decimal;
+}
 .search-input{
 	position: relative;
 	width: 350px;
@@ -226,10 +229,11 @@ h1{
 	    width: 100%;
 }
 .page__post main ul{padding-left: 28px;}
-.page__post main ul li{
+.page__post main .content ul li{
 	list-style: disc;
 }
-.page__post main ul li, .page__post main p{
+.page__post main ul li, .page__post main p,
+.page__post main .content ol li{
 	font-family: 'Georgia';
 	margin: 25px 0;
 	line-height: 1.58;
