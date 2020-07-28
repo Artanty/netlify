@@ -3,6 +3,7 @@ layout: post
 permalink: knowledge/articles/zachem_uchitsya_vo_vremya_epidemii_koronavirusa/index.html
 title: Зачем учиться во время эпидемии коронавируса?
 date: 2020-07-28T14:52:07.981Z
+thumbnail: /images/uploads/zachem_uchitsya_vo_vremya_epidemii_koronavirusa-01.jpg
 ---
 Коронавирус пугает ежедневной статистикой распространения. Детские сады, школы и другие места массовых скоплений людей закрывают. Тем временем, тренд на удаленную работу захватывает новые и новые компании каждый день. О том, чем обернется этот кризис для многих работников, привыкших сидеть в офисе, рассуждают эксперты Advance.
 
