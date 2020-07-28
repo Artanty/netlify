@@ -29,7 +29,7 @@
 .breadcrumbs li.breadcrumb-item{
     display: inline-block;
 }
-.breadcrumbs a,.breadcrumbs p {
+.breadcrumbs a,.breadcrumbs span {
     color: #000;
     font-family: 'muller';
     font-size: 12px;	    
