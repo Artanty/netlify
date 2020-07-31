@@ -10,12 +10,12 @@ thumbnail: /images/uploads/passive_voice-01.jpg
 
 ## Отличительные черты пассивного залога:
 
-- Исполнитель очевиден, либо по какой-то причине не афишируется.
-- Исполнитель действия не так важен как само действие или его результат.
-- Главным становится объект, над которым это действие совершают.
-- Глагол в пассивном залоге превращается в деепричастие.
+* Исполнитель очевиден, либо по какой-то причине не афишируется.
+* Исполнитель действия не так важен как само действие или его результат.
+* Главным становится объект, над которым это действие совершают.
+* Глагол в пассивном залоге превращается в деепричастие.
 
-Сложно? Если чувствуете, что еще не готовы к этим правилам, значит вам сейчас лучше подойдет [английский для начинающих](/online_training/anglijskiy_s_nulya/).
+Сложно? Если чувствуете, что еще не готовы к этим правилам, значит вам сейчас лучше подойдет [английский для начинающих](https://advance-club.ru/online_training/anglijskiy_s_nulya/).
 
 ## Образование пассивного залога
 
@@ -24,15 +24,15 @@ thumbnail: /images/uploads/passive_voice-01.jpg
 
 Например:
 
-- I will be promoted soon - Меня скоро повысят
-- He has never been seen anywhere - И больше его нигде не видели.
-- Was her heart broken? - Ей разбили сердце?
+* I will be promoted soon - Меня скоро повысят
+* He has never been seen anywhere - И больше его нигде не видели.
+* Was her heart broken? - Ей разбили сердце?
 
 В том случае, если исполнитель действия все-таки важен, его можно указать с помощью предлога by. Если речь идет об инструменте, с помощью которого его выполняют, используется предлог by:
 
-- The play was performed first in 1607 at the Globe Theatre - Пьеса была впервые
-представлена в 1607 году в театре Глобус.
-- Pizza dish is strictly eaten with knife and fork. - Пиццу целиком едят только ножом и вилкой.
+* The play was performed first in 1607 at the Globe Theatre - Пьеса была впервые
+  представлена в 1607 году в театре Глобус.
+* Pizza dish is strictly eaten with knife and fork. - Пиццу целиком едят только ножом и вилкой.
 
 ## Образование пассивного залога в разных временах
 
@@ -48,9 +48,8 @@ Present Simple
 
 Например:
 
-- Cheese is made of milk. - Сыр делают из молока.
-- I’m invited to an awesome party! - Я приглашен на крутую вечеринку!
- 
+* Cheese is made of milk. - Сыр делают из молока.
+* I’m invited to an awesome party! - Я приглашен на крутую вечеринку!
 
 Present Continuous
 
@@ -60,9 +59,8 @@ Present Continuous
 
 Например:
 
-- The house is being built. - Дом строится.
-- Mars is being actively explored. - Марс активно изучается.
- 
+* The house is being built. - Дом строится.
+* Mars is being actively explored. - Марс активно изучается.
 
 Present Perfect
 
@@ -73,8 +71,8 @@ Present Perfect
 
 Например:
 
-- The masterpiece has been painted. - Шедевр уже написан (нарисован).
-- The ceremony hasn’t been performed yet. - Церемония еще не проведена.
+* The masterpiece has been painted. - Шедевр уже написан (нарисован).
+* The ceremony hasn’t been performed yet. - Церемония еще не проведена.
 
 Past Simple
 
@@ -84,10 +82,9 @@ Past Simple
 
 Например:
 
-- I was born (as I have been informed and believe) on a Friday, at twelve o'clock at night. - Я был рожден
-(Как мне сказали, и чему я верю) в пятницу, в 12 часов ночи. 
-(с) Ч. Диккенз “Дэвид Копперфильд”. 
- 
+* I was born (as I have been informed and believe) on a Friday, at twelve o'clock at night. - Я был рожден
+  (Как мне сказали, и чему я верю) в пятницу, в 12 часов ночи. 
+  (с) Ч. Диккенз “Дэвид Копперфильд”. 
 
 Past Continuous
 
@@ -95,8 +92,8 @@ Past Continuous
 
 По аналогии с пассивной формой Present Continuous, в прошедшем времени тоже идет указание на процесс, который, правда, в этом случае, происходил в прошлом.
 
-- The second round of construction works was being done in November 2018.
-Второй этап строительных работ проводился в ноябре 2018 года.
+* The second round of construction works was being done in November 2018.
+  Второй этап строительных работ проводился в ноябре 2018 года.
 
 ![](/images/uploads/passive_voice-03.jpg)
 
@@ -108,9 +105,8 @@ Past Perfect
 
 Например:
 
-- My car had been repaired. – Мою машину починили (до какого-то момента).
-- The cake had been cooked by the dinner. - Торт был приготовлен к ужину (тогда, давно).
- 
+* My car had been repaired. – Мою машину починили (до какого-то момента).
+* The cake had been cooked by the dinner. - Торт был приготовлен к ужину (тогда, давно).
 
 Future Simple
 
@@ -120,9 +116,9 @@ Future Simple
 
 Например:
 
-- The choice will be made.- Выбор будет сделан.
-- A fuller discussion will be held at future meetings. - Более обстоятельное обсуждение этого вопроса
-будет проведено на будущих собраниях.
+* The choice will be made.- Выбор будет сделан.
+* A fuller discussion will be held at future meetings. - Более обстоятельное обсуждение этого вопроса
+  будет проведено на будущих собраниях.
 
 ![](/images/uploads/passive_voice-04.jpg)
 
@@ -136,9 +132,8 @@ Future Perfect
 
 Например:
 
-- This process will have been completed by the end of 2019. - Этот процесс будет завершен к 2019 году.
-- The country house will have been constructed by June. - Дача будет построена к Июню.
- 
+* This process will have been completed by the end of 2019. - Этот процесс будет завершен к 2019 году.
+* The country house will have been constructed by June. - Дача будет построена к Июню.
 
 Future in the Past
 
@@ -146,8 +141,8 @@ Future in the Past
 
 Подойдет, если вы хотите поведать о ситуации, которая была в прошлом, но на тот момент относилась к будущему. Немного запутанно, но на примере все сразу встанет на свои места:
 
-- I knew I wouldn’t  be invited to the party! – Я знал, что меня не пригласят на праздник!
+* I knew I wouldn’t  be invited to the party! – Я знал, что меня не пригласят на праздник!
 
 ![](/images/uploads/passive_voice-05.jpg)
 
-Итак, с самыми основными правилами пассивного залога в английском вы уже познакомились! Дело остается за малым - практиковать и углублять полученные знания. Все эти правила в доступном виде можно отработать на наших курсах, вам поможет: [английский язык онлайн](/online/angliyskiy_dlya_vashih_celey/).
+Итак, с самыми основными правилами пассивного залога в английском вы уже познакомились! Дело остается за малым - практиковать и углублять полученные знания. Все эти правила в доступном виде можно отработать на наших курсах, вам поможет: [английский язык онлайн](https://advance-club.ru/online/angliyskiy_dlya_vashih_celey/).
