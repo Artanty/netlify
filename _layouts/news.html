@@ -98,7 +98,9 @@
 					</a>
 					<div class="card__body">
 						<span class="card__time">{{post.date | date: "%m/%d/%Y"}}</span>
-						<h2 class="card__title">{{ post.title }}</h2>
+						<a href="{{ post.url }}">
+							<h2 class="card__title">{{ post.title }}</h2>
+						</a>
 						<!-- {{ post.content | slice: 0, 65 }}... -->
 					</div>
 

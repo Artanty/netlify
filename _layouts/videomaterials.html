@@ -80,7 +80,9 @@
 				  	  	  <div class="card__top">
 				  	  	  	{% assign posttag = site.tags | where: 'name', post.tag | first %}
 				  	  	  	<span class="card__tags">{{ posttag.display_name }}</span>
-				  	  	  	<h2 class="card__title">{{ post.title }}</h2>
+				  	  	  	<a href="{{ post.url }}">
+				  	  	  		<h2 class="card__title">{{ post.title }}</h2>
+				  	  	  	</a>
 
 				  	  	  	{% if post.title.size < 35 %}
 				  	  	  	{{ post.content | slice: 0, 65 }}...  
