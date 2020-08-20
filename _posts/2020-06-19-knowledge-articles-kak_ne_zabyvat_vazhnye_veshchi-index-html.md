@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: knowledge/articles/kak_ne_zabyvat_vazhnye_veshchi/index.html
-title: Как улучшить память?
+title: Как не забывать важные вещи
 date: 2020-06-15T09:43:57.139Z
 thumbnail: /images/uploads/kak_ne_zabyvat_vazhnye_veshchi-01.jpg
 ---
