@@ -15,6 +15,4 @@ thumbnail: /images/uploads/onlajn-kurs_advance_stal_prizerom_na_edcrunch_2019-01
 
 EDCRUNCH – глобальная конференция о цифровых инновациях в образовании. Это единственное в своем роде масштабное событие, которое в этом году собрало 4,5 тысячи участников и 280 спикеров из 13 стран.
 
-![](/images/uploads/onlajn-kurs_advance_stal_prizerom_na_edcrunch_2019-03.jpg)
-
 [Перейти на страницу курса](https://advance-club.ru/online/angliyskiy_dlya_vashih_celey/).
