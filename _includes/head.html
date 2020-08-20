@@ -14,8 +14,6 @@
 <link rel="stylesheet" href="/02_plugins/bootstrap/bs.min.css">
 
 
-<title>{{page.title}} | Центр образовательных технологий Advance</title>
-
 {% if page.layout == "videomaterial" %}
 {% assign pagetype = "База знаний - видеоматериалы Advance" %}
 
@@ -31,20 +29,33 @@
 {% endif %}
 
 
+{% if page.custom_title %}
+	{% assign final_title = page.custom_title %}
+{% else %}
+	{% assign final_title = page.title | append: ' | Центр образовательных технологий Advance' %}
+{% endif %}
 
+{% if page.custom_description %}  
+	{% assign final_description = page.custom_description %}
+{% else %}
+	{% assign final_description = "page.title | append: ' | ' | append: pagetype | append: ' | Центр образовательных технологий Advance ✅ Уникальные методики обучения ✅ Эффективное запоминание материала ✅ 100% результат' %}
+{% endif %}
 
-<meta name="description" content="{{page.title}} | {{pagetype}} | Центр образовательных технологий Advance ✅ Уникальные методики обучения ✅ Эффективное запоминание материала ✅ 100% результат"/>
+<title>{{ final_title }}</title>
 
-<meta property="og:title" content="{{page.title}} | Центр образовательных технологий Advance"/>
-<meta property="og:description" content="{{page.title}} | {{pagetype}} | Центр образовательных технологий Advance ✅ Уникальные методики обучения ✅ Эффективное запоминание материала ✅ 100% результат"/>
+<meta name="description" content="{{ final_description }}"/>
+
+<meta property="og:title" content="{{ final_title }}"/>
+<meta property="og:description" content="{{ final_description }}"/>
+
 <meta property="og:type" content="website" />    
-<meta property="og:locale" content="ru_RU" />    
+<meta property="og:locale" content="ru_RU" />
 <meta property="og:url" content="https://advance-club.ru{{page.url}}" />
 <meta property="og:site_name" content="Центр образовательных технологий Advance" />
-
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{page.title}} | Центр образовательных технологий Advance">
-<meta name="twitter:description" content="{{page.title}} | {{pagetype}} | Центр образовательных технологий Advance ✅ Уникальные методики обучения ✅ Эффективное запоминание материала ✅ 100% результат">
+
+<meta name="twitter:title" content="{{ final_title }}">
+<meta name="twitter:description" content="{{ final_description }}">
 
 <meta name="twitter:image:src" content="https://advance-club.ru/05_imgs/og-logo_vk_1920x900.png">
 <meta property="og:image" content="https://advance-club.ru/05_imgs/og-logo_vk_1920x900.png">
