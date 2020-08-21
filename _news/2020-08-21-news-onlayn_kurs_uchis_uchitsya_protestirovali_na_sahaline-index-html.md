@@ -1,6 +1,6 @@
 ---
 layout: news_post
-permalink: news/onlayn_kurs_uchis_uchitsya_protestirovali_na_sahaline/index.html
+permalink: about/news/onlayn_kurs_uchis_uchitsya_protestirovali_na_sahaline/index.html
 title: Онлайн-курс “Учись учиться” протестировали на Сахалине
 date: 2020-08-21T14:53:09.476Z
 thumbnail: /images/uploads/onlayn_kurs_uchis_uchitsya_protestirovali_na_sahaline-01.jpg
