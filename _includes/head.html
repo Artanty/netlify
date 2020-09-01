@@ -18,7 +18,7 @@
 {% assign pagetype = "База знаний - видеоматериалы Advance" %}
 
 {% elsif page.layout == "post" %}
-{% assign pagetype = "База знаний - статьи Advance" %}
+{% assign pagetype = " | Блог Advance" %}
 
 {% elsif page.layout == "news_post" %}
 {% assign pagetype = "Новости Advance" %}
@@ -32,13 +32,13 @@
 {% if page.custom_title %}
 	{% assign final_title = page.custom_title %}
 {% else %}
-	{% assign final_title = page.title | append: ' | Центр образовательных технологий Advance' %}
+	{% assign final_title = page.title | append: ' | Блог Advance' %}
 {% endif %}
 
 {% if page.custom_description %}  
 	{% assign final_description = page.custom_description %}
 {% else %}
-	{% assign final_description = "page.title | append: ' | ' | append: pagetype | append: ' | Центр образовательных технологий Advance ✅ Уникальные методики обучения ✅ Эффективное запоминание материала ✅ 100% результат' %}
+	{% assign final_description = page.title | append: pagetype | append: '-club.ru' %}
 {% endif %}
 
 <title>{{ final_title }}</title>
