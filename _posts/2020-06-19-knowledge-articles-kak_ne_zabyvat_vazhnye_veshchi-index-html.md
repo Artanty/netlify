@@ -4,6 +4,9 @@ permalink: knowledge/articles/kak_ne_zabyvat_vazhnye_veshchi/index.html
 title: Как не забывать важные вещи
 date: 2020-06-15T09:43:57.139Z
 thumbnail: /images/uploads/kak_ne_zabyvat_vazhnye_veshchi-01.jpg
+
+custom_title: 'Статья "Как не забывать важные вещи" | Блог Advance'
+custom_description: 'Статья "Как не забывать важные вещи" | Блог Advance-club.ru'
 ---
 Прежде чем говорить о забывании, обратимся к запоминанию. Что происходит в мозгу, когда мы учимся чему-то новому? – В нем образуются нейронные связи. Когда мы забываем что-то, эти связи разрушаются. Об этом онлайн-журналу Eva.ru рассказал основатель центра образовательных технологий Advance Николай Ягодкин.
 

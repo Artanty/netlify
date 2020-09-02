@@ -5,8 +5,8 @@ title: Как улучшить память?
 date: 2020-06-15T09:43:57.139Z
 thumbnail: /images/uploads/kak_uluchshit_pamyat-01.jpg
 
-custom_title: Статья об улучшении и развитии памяти | Блог Advance
-custom_description: Статья об улучшении и развитии памяти | Блог Advance-club.ru
+custom_title: 'Статья "Как улучшить память: упражнения и советы" | Блог Advance'
+custom_description: 'Статья "Как улучшить память: упражнения и советы" | Блог Advance-club.ru'
 ---
 Из этой статьи вы узнаете о приемах улучшения памяти.
 Наши преподаватели уже делились секретами, “[Как тренировать память в быту](../kak_trenirovat_pamyat_v_bytu_sovety_prepodavateley/index.html)” и  “[Как не забывать важные вещи](../kak_ne_zabyvat_vazhnye_veshchi/index.html)”. Сегодня расскажем о еще нескольких способах.
